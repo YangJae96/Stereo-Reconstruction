@@ -1,0 +1,65 @@
+{
+    "wall_time": 3.1125410189997638,
+    "image_reports": [
+        {
+            "image": "0.jpg",
+            "num_features": 579,
+            "wall_time": 0.29365983299976506
+        },
+        {
+            "image": "11.jpg",
+            "num_features": 2558,
+            "wall_time": 0.9078857339991373
+        },
+        {
+            "image": "9.jpg",
+            "num_features": 1565,
+            "wall_time": 0.5973423569994338
+        },
+        {
+            "image": "6.jpg",
+            "num_features": 1780,
+            "wall_time": 0.6845729409997148
+        },
+        {
+            "image": "1.jpg",
+            "num_features": 818,
+            "wall_time": 0.34533868200014695
+        },
+        {
+            "image": "5.jpg",
+            "num_features": 2173,
+            "wall_time": 0.7953735030005191
+        },
+        {
+            "image": "3.jpg",
+            "num_features": 1498,
+            "wall_time": 0.553692850000516
+        },
+        {
+            "image": "7.jpg",
+            "num_features": 2132,
+            "wall_time": 0.780783476000579
+        },
+        {
+            "image": "4.jpg",
+            "num_features": 1789,
+            "wall_time": 0.6351064880000195
+        },
+        {
+            "image": "8.jpg",
+            "num_features": 1413,
+            "wall_time": 0.5265007950001745
+        },
+        {
+            "image": "10.jpg",
+            "num_features": 2687,
+            "wall_time": 0.5962152199990669
+        },
+        {
+            "image": "2.jpg",
+            "num_features": 1135,
+            "wall_time": 0.37706881599842745
+        }
+    ]
+}

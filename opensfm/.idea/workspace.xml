@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e3ef7e4-4f6b-4528-9ead-dee7a041a643" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/commands/slam.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands/slam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/context.py" beforeDir="false" afterPath="$PROJECT_DIR$/context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dense.py" beforeDir="false" afterPath="$PROJECT_DIR$/dense.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/matching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconstruction.py" beforeDir="false" afterPath="$PROJECT_DIR$/reconstruction.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YhOUq0sqJyhHao7yQyV6a2eiEg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="opensfm" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="opensfm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../bin/opensfm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e3ef7e4-4f6b-4528-9ead-dee7a041a643" name="Default Changelist" comment="" />
+      <created>1583391377552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583391377552</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2442" y="274" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583391795202">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2442" y="274" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1583391795202" />
+    <state x="2550" y="65" width="1022" height="737" key="SettingsEditor" timestamp="1583391586521">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2550" y="65" width="1022" height="737" key="SettingsEditor/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1583391586521" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dense.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

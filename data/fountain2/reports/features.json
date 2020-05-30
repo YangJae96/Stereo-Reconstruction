@@ -1,0 +1,35 @@
+{
+    "wall_time": 3.424072891000833,
+    "image_reports": [
+        {
+            "image": "0003.jpg",
+            "num_features": 5045,
+            "wall_time": 3.131264321999879
+        },
+        {
+            "image": "0001.jpg",
+            "num_features": 4934,
+            "wall_time": 3.3317138390002583
+        },
+        {
+            "image": "0005.jpg",
+            "num_features": 5079,
+            "wall_time": 3.123109858999669
+        },
+        {
+            "image": "0002.jpg",
+            "num_features": 4923,
+            "wall_time": 3.1858889830000408
+        },
+        {
+            "image": "0000.jpg",
+            "num_features": 4920,
+            "wall_time": 2.956913997999436
+        },
+        {
+            "image": "0004.jpg",
+            "num_features": 4992,
+            "wall_time": 3.009947006999937
+        }
+    ]
+}

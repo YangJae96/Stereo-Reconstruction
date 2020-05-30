@@ -1,0 +1,10 @@
+{
+    "num_candidate_image_pairs": 0,
+    "reconstructions": [],
+    "wall_times": {
+        "load_tracks_graph": 9.010000212583691e-06,
+        "compute_image_pairs": 0.0002261180015921127,
+        "compute_reconstructions": 8.474000060232356e-05
+    },
+    "not_reconstructed_images": []
+}

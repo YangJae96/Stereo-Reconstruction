@@ -1,0 +1,55 @@
+{
+    "wall_time": 3.333709065998846,
+    "image_reports": [
+        {
+            "image": "0.jpg",
+            "num_features": 1055,
+            "wall_time": 0.26219133399717975
+        },
+        {
+            "image": "1.jpg",
+            "num_features": 1683,
+            "wall_time": 0.3158968389980146
+        },
+        {
+            "image": "2.jpg",
+            "num_features": 1933,
+            "wall_time": 0.34808631199848605
+        },
+        {
+            "image": "3.jpg",
+            "num_features": 2217,
+            "wall_time": 0.38793279599485686
+        },
+        {
+            "image": "4.jpg",
+            "num_features": 1828,
+            "wall_time": 0.3248045709988219
+        },
+        {
+            "image": "5.jpg",
+            "num_features": 1859,
+            "wall_time": 0.33492356599890627
+        },
+        {
+            "image": "6.jpg",
+            "num_features": 1741,
+            "wall_time": 0.31953343699569814
+        },
+        {
+            "image": "7.jpg",
+            "num_features": 1604,
+            "wall_time": 0.2985951130031026
+        },
+        {
+            "image": "8.jpg",
+            "num_features": 1691,
+            "wall_time": 0.30920934800087707
+        },
+        {
+            "image": "9.jpg",
+            "num_features": 2468,
+            "wall_time": 0.42725646599865286
+        }
+    ]
+}

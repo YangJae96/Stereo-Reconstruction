@@ -1,0 +1,30 @@
+{
+    "wall_time": 0.7041260379992309,
+    "image_reports": [
+        {
+            "image": "0.jpg",
+            "num_features": 1521,
+            "wall_time": 0.6489736669973354
+        },
+        {
+            "image": "1.jpg",
+            "num_features": 1230,
+            "wall_time": 0.6753160299995216
+        },
+        {
+            "image": "2.jpg",
+            "num_features": 1315,
+            "wall_time": 0.49893181499646744
+        },
+        {
+            "image": "3.jpg",
+            "num_features": 1359,
+            "wall_time": 0.5910858490024111
+        },
+        {
+            "image": "4.jpg",
+            "num_features": 1176,
+            "wall_time": 0.619716879002226
+        }
+    ]
+}

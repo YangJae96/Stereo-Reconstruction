@@ -1,0 +1,71 @@
+{
+    "wall_time": 0.7233504079995328,
+    "num_pairs": 15,
+    "pairs": [
+        [
+            "4.jpg",
+            "0.jpg"
+        ],
+        [
+            "4.jpg",
+            "4.jpg"
+        ],
+        [
+            "4.jpg",
+            "1.jpg"
+        ],
+        [
+            "4.jpg",
+            "3.jpg"
+        ],
+        [
+            "4.jpg",
+            "2.jpg"
+        ],
+        [
+            "2.jpg",
+            "0.jpg"
+        ],
+        [
+            "2.jpg",
+            "2.jpg"
+        ],
+        [
+            "2.jpg",
+            "1.jpg"
+        ],
+        [
+            "2.jpg",
+            "3.jpg"
+        ],
+        [
+            "1.jpg",
+            "1.jpg"
+        ],
+        [
+            "1.jpg",
+            "3.jpg"
+        ],
+        [
+            "1.jpg",
+            "0.jpg"
+        ],
+        [
+            "0.jpg",
+            "0.jpg"
+        ],
+        [
+            "0.jpg",
+            "3.jpg"
+        ],
+        [
+            "3.jpg",
+            "3.jpg"
+        ]
+    ],
+    "num_pairs_distance": 0,
+    "num_pairs_time": 0,
+    "num_pairs_order": 0,
+    "num_pairs_bow": 0,
+    "num_pairs_vlad": 0
+}

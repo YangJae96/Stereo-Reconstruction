@@ -1,0 +1,11 @@
+{
+    "wall_times": {
+        "load_features": 0.00014686500071547925,
+        "load_matches": 1.6360027075279504e-06,
+        "compute_tracks": 0.00015034399984870106
+    },
+    "wall_time": 0.00029884500327170826,
+    "num_images": 0,
+    "num_tracks": 0,
+    "view_graph": []
+}
