@@ -1,2 +1,0 @@
-/usr/bin/ar qc libfoundation.a  CMakeFiles/foundation.dir/src/types.cc.o CMakeFiles/foundation.dir/src/logger.cc.o
-/usr/bin/ranlib libfoundation.a
