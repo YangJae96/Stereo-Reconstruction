@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yjw/KMU_SLAM/opensfm/src/testing_main.cc
+/home/yjw/Stereo Reconstruction/opensfm/src/testing_main.cc
 gflags/gflags.h
 -
 glog/logging.h
@@ -14,7 +14,7 @@ glog/logging.h
 gtest/gtest.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/gtest/gtest/gtest.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/gtest/gtest/gtest.h
 limits
 -
 ostream

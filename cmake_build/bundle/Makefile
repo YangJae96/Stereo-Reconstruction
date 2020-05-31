@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yjw/KMU_SLAM/opensfm/src
+CMAKE_SOURCE_DIR = "/home/yjw/Stereo Reconstruction/opensfm/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yjw/KMU_SLAM/cmake_build
+CMAKE_BINARY_DIR = "/home/yjw/Stereo Reconstruction/cmake_build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles /home/yjw/KMU_SLAM/cmake_build/bundle/CMakeFiles/progress.marks
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 bundle/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" "/home/yjw/Stereo Reconstruction/cmake_build/bundle/CMakeFiles/progress.marks"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 bundle/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 bundle/clean
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 bundle/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 bundle/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 bundle/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 bundle/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 bundle/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bundle/CMakeFiles/bundle.dir/rule:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 bundle/CMakeFiles/bundle.dir/rule
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 bundle/CMakeFiles/bundle.dir/rule
 .PHONY : bundle/CMakeFiles/bundle.dir/rule
 
 # Convenience name for target.
@@ -133,12 +133,12 @@ bundle: bundle/CMakeFiles/bundle.dir/rule
 
 # fast build rule for target.
 bundle/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f bundle/CMakeFiles/bundle.dir/build.make bundle/CMakeFiles/bundle.dir/build
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f bundle/CMakeFiles/bundle.dir/build.make bundle/CMakeFiles/bundle.dir/build
 .PHONY : bundle/fast
 
 # Convenience name for target.
 bundle/CMakeFiles/pybundle.dir/rule:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 bundle/CMakeFiles/pybundle.dir/rule
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 bundle/CMakeFiles/pybundle.dir/rule
 .PHONY : bundle/CMakeFiles/pybundle.dir/rule
 
 # Convenience name for target.
@@ -148,7 +148,7 @@ pybundle: bundle/CMakeFiles/pybundle.dir/rule
 
 # fast build rule for target.
 pybundle/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f bundle/CMakeFiles/pybundle.dir/build.make bundle/CMakeFiles/pybundle.dir/build
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f bundle/CMakeFiles/pybundle.dir/build.make bundle/CMakeFiles/pybundle.dir/build
 .PHONY : pybundle/fast
 
 python/pybind.o: python/pybind.cc.o
@@ -157,7 +157,7 @@ python/pybind.o: python/pybind.cc.o
 
 # target to build an object file
 python/pybind.cc.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f bundle/CMakeFiles/pybundle.dir/build.make bundle/CMakeFiles/pybundle.dir/python/pybind.cc.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f bundle/CMakeFiles/pybundle.dir/build.make bundle/CMakeFiles/pybundle.dir/python/pybind.cc.o
 .PHONY : python/pybind.cc.o
 
 python/pybind.i: python/pybind.cc.i
@@ -166,7 +166,7 @@ python/pybind.i: python/pybind.cc.i
 
 # target to preprocess a source file
 python/pybind.cc.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f bundle/CMakeFiles/pybundle.dir/build.make bundle/CMakeFiles/pybundle.dir/python/pybind.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f bundle/CMakeFiles/pybundle.dir/build.make bundle/CMakeFiles/pybundle.dir/python/pybind.cc.i
 .PHONY : python/pybind.cc.i
 
 python/pybind.s: python/pybind.cc.s
@@ -175,7 +175,7 @@ python/pybind.s: python/pybind.cc.s
 
 # target to generate assembly for a file
 python/pybind.cc.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f bundle/CMakeFiles/pybundle.dir/build.make bundle/CMakeFiles/pybundle.dir/python/pybind.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f bundle/CMakeFiles/pybundle.dir/build.make bundle/CMakeFiles/pybundle.dir/python/pybind.cc.s
 .PHONY : python/pybind.cc.s
 
 src/bundle_adjuster.o: src/bundle_adjuster.cc.o
@@ -184,7 +184,7 @@ src/bundle_adjuster.o: src/bundle_adjuster.cc.o
 
 # target to build an object file
 src/bundle_adjuster.cc.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f bundle/CMakeFiles/bundle.dir/build.make bundle/CMakeFiles/bundle.dir/src/bundle_adjuster.cc.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f bundle/CMakeFiles/bundle.dir/build.make bundle/CMakeFiles/bundle.dir/src/bundle_adjuster.cc.o
 .PHONY : src/bundle_adjuster.cc.o
 
 src/bundle_adjuster.i: src/bundle_adjuster.cc.i
@@ -193,7 +193,7 @@ src/bundle_adjuster.i: src/bundle_adjuster.cc.i
 
 # target to preprocess a source file
 src/bundle_adjuster.cc.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f bundle/CMakeFiles/bundle.dir/build.make bundle/CMakeFiles/bundle.dir/src/bundle_adjuster.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f bundle/CMakeFiles/bundle.dir/build.make bundle/CMakeFiles/bundle.dir/src/bundle_adjuster.cc.i
 .PHONY : src/bundle_adjuster.cc.i
 
 src/bundle_adjuster.s: src/bundle_adjuster.cc.s
@@ -202,7 +202,7 @@ src/bundle_adjuster.s: src/bundle_adjuster.cc.s
 
 # target to generate assembly for a file
 src/bundle_adjuster.cc.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f bundle/CMakeFiles/bundle.dir/build.make bundle/CMakeFiles/bundle.dir/src/bundle_adjuster.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f bundle/CMakeFiles/bundle.dir/build.make bundle/CMakeFiles/bundle.dir/src/bundle_adjuster.cc.s
 .PHONY : src/bundle_adjuster.cc.s
 
 # Help Target
@@ -233,6 +233,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

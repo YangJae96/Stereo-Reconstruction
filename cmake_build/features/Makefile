@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yjw/KMU_SLAM/opensfm/src
+CMAKE_SOURCE_DIR = "/home/yjw/Stereo Reconstruction/opensfm/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yjw/KMU_SLAM/cmake_build
+CMAKE_BINARY_DIR = "/home/yjw/Stereo Reconstruction/cmake_build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles /home/yjw/KMU_SLAM/cmake_build/features/CMakeFiles/progress.marks
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 features/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" "/home/yjw/Stereo Reconstruction/cmake_build/features/CMakeFiles/progress.marks"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 features/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 features/clean
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 features/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 features/CMakeFiles/features.dir/rule:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 features/CMakeFiles/features.dir/rule
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 features/CMakeFiles/features.dir/rule
 .PHONY : features/CMakeFiles/features.dir/rule
 
 # Convenience name for target.
@@ -133,12 +133,12 @@ features: features/CMakeFiles/features.dir/rule
 
 # fast build rule for target.
 features/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/build
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/build
 .PHONY : features/fast
 
 # Convenience name for target.
 features/CMakeFiles/pyfeatures.dir/rule:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 features/CMakeFiles/pyfeatures.dir/rule
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 features/CMakeFiles/pyfeatures.dir/rule
 .PHONY : features/CMakeFiles/pyfeatures.dir/rule
 
 # Convenience name for target.
@@ -148,7 +148,7 @@ pyfeatures: features/CMakeFiles/pyfeatures.dir/rule
 
 # fast build rule for target.
 pyfeatures/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/pyfeatures.dir/build.make features/CMakeFiles/pyfeatures.dir/build
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/pyfeatures.dir/build.make features/CMakeFiles/pyfeatures.dir/build
 .PHONY : pyfeatures/fast
 
 python/pybind.o: python/pybind.cc.o
@@ -157,7 +157,7 @@ python/pybind.o: python/pybind.cc.o
 
 # target to build an object file
 python/pybind.cc.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/pyfeatures.dir/build.make features/CMakeFiles/pyfeatures.dir/python/pybind.cc.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/pyfeatures.dir/build.make features/CMakeFiles/pyfeatures.dir/python/pybind.cc.o
 .PHONY : python/pybind.cc.o
 
 python/pybind.i: python/pybind.cc.i
@@ -166,7 +166,7 @@ python/pybind.i: python/pybind.cc.i
 
 # target to preprocess a source file
 python/pybind.cc.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/pyfeatures.dir/build.make features/CMakeFiles/pyfeatures.dir/python/pybind.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/pyfeatures.dir/build.make features/CMakeFiles/pyfeatures.dir/python/pybind.cc.i
 .PHONY : python/pybind.cc.i
 
 python/pybind.s: python/pybind.cc.s
@@ -175,7 +175,7 @@ python/pybind.s: python/pybind.cc.s
 
 # target to generate assembly for a file
 python/pybind.cc.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/pyfeatures.dir/build.make features/CMakeFiles/pyfeatures.dir/python/pybind.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/pyfeatures.dir/build.make features/CMakeFiles/pyfeatures.dir/python/pybind.cc.s
 .PHONY : python/pybind.cc.s
 
 src/akaze_bind.o: src/akaze_bind.cc.o
@@ -184,7 +184,7 @@ src/akaze_bind.o: src/akaze_bind.cc.o
 
 # target to build an object file
 src/akaze_bind.cc.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/akaze_bind.cc.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/akaze_bind.cc.o
 .PHONY : src/akaze_bind.cc.o
 
 src/akaze_bind.i: src/akaze_bind.cc.i
@@ -193,7 +193,7 @@ src/akaze_bind.i: src/akaze_bind.cc.i
 
 # target to preprocess a source file
 src/akaze_bind.cc.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/akaze_bind.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/akaze_bind.cc.i
 .PHONY : src/akaze_bind.cc.i
 
 src/akaze_bind.s: src/akaze_bind.cc.s
@@ -202,7 +202,7 @@ src/akaze_bind.s: src/akaze_bind.cc.s
 
 # target to generate assembly for a file
 src/akaze_bind.cc.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/akaze_bind.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/akaze_bind.cc.s
 .PHONY : src/akaze_bind.cc.s
 
 src/hahog.o: src/hahog.cc.o
@@ -211,7 +211,7 @@ src/hahog.o: src/hahog.cc.o
 
 # target to build an object file
 src/hahog.cc.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/hahog.cc.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/hahog.cc.o
 .PHONY : src/hahog.cc.o
 
 src/hahog.i: src/hahog.cc.i
@@ -220,7 +220,7 @@ src/hahog.i: src/hahog.cc.i
 
 # target to preprocess a source file
 src/hahog.cc.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/hahog.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/hahog.cc.i
 .PHONY : src/hahog.cc.i
 
 src/hahog.s: src/hahog.cc.s
@@ -229,7 +229,7 @@ src/hahog.s: src/hahog.cc.s
 
 # target to generate assembly for a file
 src/hahog.cc.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/hahog.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/hahog.cc.s
 .PHONY : src/hahog.cc.s
 
 src/matching.o: src/matching.cc.o
@@ -238,7 +238,7 @@ src/matching.o: src/matching.cc.o
 
 # target to build an object file
 src/matching.cc.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/matching.cc.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/matching.cc.o
 .PHONY : src/matching.cc.o
 
 src/matching.i: src/matching.cc.i
@@ -247,7 +247,7 @@ src/matching.i: src/matching.cc.i
 
 # target to preprocess a source file
 src/matching.cc.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/matching.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/matching.cc.i
 .PHONY : src/matching.cc.i
 
 src/matching.s: src/matching.cc.s
@@ -256,7 +256,7 @@ src/matching.s: src/matching.cc.s
 
 # target to generate assembly for a file
 src/matching.cc.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/matching.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/src/matching.cc.s
 .PHONY : src/matching.cc.s
 
 # Help Target
@@ -293,6 +293,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

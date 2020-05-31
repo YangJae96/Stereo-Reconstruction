@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yjw/KMU_SLAM/opensfm/src
+CMAKE_SOURCE_DIR = "/home/yjw/Stereo Reconstruction/opensfm/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yjw/KMU_SLAM/cmake_build
+CMAKE_BINARY_DIR = "/home/yjw/Stereo Reconstruction/cmake_build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testing_main.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/testing_main.dir/progress.make
 include CMakeFiles/testing_main.dir/flags.make
 
 CMakeFiles/testing_main.dir/testing_main.cc.o: CMakeFiles/testing_main.dir/flags.make
-CMakeFiles/testing_main.dir/testing_main.cc.o: /home/yjw/KMU_SLAM/opensfm/src/testing_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testing_main.dir/testing_main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing_main.dir/testing_main.cc.o -c /home/yjw/KMU_SLAM/opensfm/src/testing_main.cc
+CMakeFiles/testing_main.dir/testing_main.cc.o: /home/yjw/Stereo\ Reconstruction/opensfm/src/testing_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testing_main.dir/testing_main.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing_main.dir/testing_main.cc.o -c "/home/yjw/Stereo Reconstruction/opensfm/src/testing_main.cc"
 
 CMakeFiles/testing_main.dir/testing_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing_main.dir/testing_main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yjw/KMU_SLAM/opensfm/src/testing_main.cc > CMakeFiles/testing_main.dir/testing_main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yjw/Stereo Reconstruction/opensfm/src/testing_main.cc" > CMakeFiles/testing_main.dir/testing_main.cc.i
 
 CMakeFiles/testing_main.dir/testing_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing_main.dir/testing_main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yjw/KMU_SLAM/opensfm/src/testing_main.cc -o CMakeFiles/testing_main.dir/testing_main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yjw/Stereo Reconstruction/opensfm/src/testing_main.cc" -o CMakeFiles/testing_main.dir/testing_main.cc.s
 
 # Object files for target testing_main
 testing_main_OBJECTS = \
@@ -80,7 +80,7 @@ testing_main_EXTERNAL_OBJECTS =
 libtesting_main.a: CMakeFiles/testing_main.dir/testing_main.cc.o
 libtesting_main.a: CMakeFiles/testing_main.dir/build.make
 libtesting_main.a: CMakeFiles/testing_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtesting_main.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtesting_main.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/testing_main.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testing_main.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/testing_main.dir/clean:
 .PHONY : CMakeFiles/testing_main.dir/clean
 
 CMakeFiles/testing_main.dir/depend:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yjw/KMU_SLAM/opensfm/src /home/yjw/KMU_SLAM/opensfm/src /home/yjw/KMU_SLAM/cmake_build /home/yjw/KMU_SLAM/cmake_build /home/yjw/KMU_SLAM/cmake_build/CMakeFiles/testing_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/yjw/Stereo Reconstruction/opensfm/src" "/home/yjw/Stereo Reconstruction/opensfm/src" "/home/yjw/Stereo Reconstruction/cmake_build" "/home/yjw/Stereo Reconstruction/cmake_build" "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles/testing_main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/testing_main.dir/depend
 

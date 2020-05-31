@@ -104,12 +104,11 @@ cv::Vec3d Project(const cv::Vec3d &x,
 cv::Vec3d Backproject(double x, double y, double depth,
                       const cv::Matx33d &K,
                       const cv::Matx33d &R,
-  /                    const cv::Vec3d &t) {
+                      const cv::Vec3d &t) {
   return R.t() * (depth * K.inv() * cv::Vec3d(x, y, 1) - t);//
 }
 
-float Depthpydense.cpython-37m-x86_64-linux-gnu.so
-OfPlaneBackprojection(double x, double y,
+float DepthOfPlaneBackprojection(double x, double y,
                                  const cv::Matx33d &K,
                                  const cv::Vec3d &plane) {
   float denom  = -(plane.t() * K.inv() * cv::Vec3d(x, y, 1))(0);
@@ -416,8 +415,7 @@ float DepthmapEstimator::ComputePlaneImageScoreUnoptimized(
       Kinvs_[0], Qs_[other], as_[other], Ks_[other], plane);
   int hpz = (patch_size_ - 1) / 2;
   float im1_center = images_[0].at<unsigned char>(i, j);
-  NCCEstimator ncc;pydense.cpython-37m-x86_64-linux-gnu.so
-
+  NCCEstimator ncc;
   for (int dy = -hpz; dy <= hpz; ++dy) {
     for (int dx = -hpz; dx <= hpz; ++dx) {
       float im1 = images_[0].at<unsigned char>(i + dy, j + dx);

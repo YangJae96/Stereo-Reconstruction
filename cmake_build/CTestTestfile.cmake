@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/yjw/KMU_SLAM/opensfm/src
-# Build directory: /home/yjw/KMU_SLAM/cmake_build
+# Source directory: /home/yjw/Stereo Reconstruction/opensfm/src
+# Build directory: /home/yjw/Stereo Reconstruction/cmake_build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

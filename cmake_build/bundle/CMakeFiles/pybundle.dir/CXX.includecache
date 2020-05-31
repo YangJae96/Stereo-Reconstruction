@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/bundle_adjuster.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/bundle_adjuster.h
 cmath
 -
 cstdio
@@ -22,11 +22,11 @@ vector
 string
 -
 ceres/ceres.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/ceres/ceres.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/ceres/ceres.h
 string.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/python/pybind.cc
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/python/pybind.cc
 pybind11/pybind11.h
 -
 pybind11/stl.h
@@ -42,7 +42,7 @@ bundle/bundle_adjuster.h
 bundle/reconstruction_alignment.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/reconstruction_alignment.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/reconstruction_alignment.h
 cmath
 -
 cstdio
@@ -58,15 +58,15 @@ string
 string.h
 -
 ceres/ceres.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/ceres/ceres.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/ceres/ceres.h
 ceres/rotation.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/ceres/rotation.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/ceres/rotation.h
 ceres/loss_function.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/ceres/loss_function.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/ceres/loss_function.h
 
-/home/yjw/KMU_SLAM/opensfm/src/foundation/logger.h
+/home/yjw/Stereo Reconstruction/opensfm/src/foundation/logger.h
 
-/home/yjw/KMU_SLAM/opensfm/src/foundation/types.h
+/home/yjw/Stereo Reconstruction/opensfm/src/foundation/types.h
 pybind11/pybind11.h
 -
 pybind11/numpy.h
@@ -76,25 +76,25 @@ vector
 iostream
 -
 opencv2/core/core.hpp
-/home/yjw/KMU_SLAM/opensfm/src/foundation/opencv2/core/core.hpp
+/home/yjw/Stereo Reconstruction/opensfm/src/foundation/opencv2/core/core.hpp
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/attr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/attr.h
 cast.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/cast.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/cast.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/buffer_info.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/buffer_info.h
 detail/common.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/cast.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/cast.h
 pytypes.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
 detail/typeid.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/typeid.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/typeid.h
 detail/descr.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/descr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/descr.h
 detail/internals.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/internals.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/internals.h
 array
 -
 limits
@@ -104,17 +104,17 @@ tuple
 string_view
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/complex.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/complex.h
 pybind11.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
 complex
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
 ../attr.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/attr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/attr.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 Python.h
 -
 frameobject.h
@@ -144,19 +144,19 @@ typeindex
 type_traits
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/descr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/descr.h
 common.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/init.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/init.h
 class.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/internals.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/internals.h
 ../pytypes.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/typeid.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/typeid.h
 cstdio
 -
 cstdlib
@@ -164,19 +164,19 @@ cstdlib
 cxxabi.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/eigen.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/eigen.h
 numpy.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/numpy.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/numpy.h
 Eigen/Core
 -
 Eigen/SparseCore
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/numpy.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/numpy.h
 pybind11.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
 complex.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/complex.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/complex.h
 numeric
 -
 algorithm
@@ -200,33 +200,33 @@ utility
 typeindex
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/options.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/options.h
 detail/common.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
 attr.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/attr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/attr.h
 options.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/options.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/options.h
 detail/class.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
 detail/init.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/init.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/init.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
 detail/common.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 buffer_info.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/buffer_info.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/buffer_info.h
 utility
 -
 type_traits
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/stl.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/stl.h
 pybind11.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
 set
 -
 unordered_set

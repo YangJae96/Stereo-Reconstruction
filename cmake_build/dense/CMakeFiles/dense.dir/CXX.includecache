@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/yjw/KMU_SLAM/opensfm/src/dense/depthmap.h
+/home/yjw/Stereo Reconstruction/opensfm/src/dense/depthmap.h
 opencv2/opencv.hpp
 -
 random
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap.cc
+/home/yjw/Stereo Reconstruction/opensfm/src/dense/src/depthmap.cc
 ../depthmap.h
-/home/yjw/KMU_SLAM/opensfm/src/dense/depthmap.h
+/home/yjw/Stereo Reconstruction/opensfm/src/dense/depthmap.h
 opencv2/opencv.hpp
 -
 random

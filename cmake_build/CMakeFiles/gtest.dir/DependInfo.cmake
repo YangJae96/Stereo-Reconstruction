@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yjw/KMU_SLAM/opensfm/src/third_party/gtest/gmock_gtest_all.cc" "/home/yjw/KMU_SLAM/cmake_build/CMakeFiles/gtest.dir/third_party/gtest/gmock_gtest_all.cc.o"
-  "/home/yjw/KMU_SLAM/opensfm/src/third_party/gtest/gmock_main.cc" "/home/yjw/KMU_SLAM/cmake_build/CMakeFiles/gtest.dir/third_party/gtest/gmock_main.cc.o"
+  "/home/yjw/Stereo Reconstruction/opensfm/src/third_party/gtest/gmock_gtest_all.cc" "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles/gtest.dir/third_party/gtest/gmock_gtest_all.cc.o"
+  "/home/yjw/Stereo Reconstruction/opensfm/src/third_party/gtest/gmock_main.cc" "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles/gtest.dir/third_party/gtest/gmock_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/yjw/KMU_SLAM/opensfm/src/third_party/gtest"
+  "/home/yjw/Stereo Reconstruction/opensfm/src/third_party/gtest"
   )
 
 # Targets to which this target links.

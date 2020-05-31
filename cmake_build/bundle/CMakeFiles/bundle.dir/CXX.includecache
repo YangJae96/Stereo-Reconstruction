@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/bundle_adjuster.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/bundle_adjuster.h
 cmath
 -
 cstdio
@@ -22,57 +22,57 @@ vector
 string
 -
 ceres/ceres.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/ceres/ceres.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/ceres/ceres.h
 string.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/absolute_motion_terms.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/absolute_motion_terms.h
 error_utils.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/error_utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/error_utils.h
 Eigen/Eigen
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/bundle_adjuster.cc
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/bundle_adjuster.cc
 ../bundle_adjuster.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/bundle_adjuster.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/bundle_adjuster.h
 absolute_motion_terms.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/absolute_motion_terms.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/absolute_motion_terms.h
 position_functors.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/position_functors.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/position_functors.h
 motion_prior_terms.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/motion_prior_terms.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/motion_prior_terms.h
 relative_motion_terms.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/relative_motion_terms.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/relative_motion_terms.h
 projection_errors.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/projection_errors.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/projection_errors.h
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/error_utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/error_utils.h
 initializer_list
 -
 ceres/ceres.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/ceres/ceres.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/ceres/ceres.h
 ceres/rotation.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/ceres/rotation.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/ceres/rotation.h
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/motion_prior_terms.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/motion_prior_terms.h
 error_utils.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/error_utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/error_utils.h
 Eigen/Eigen
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/position_functors.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/position_functors.h
 error_utils.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/error_utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/error_utils.h
 Eigen/Eigen
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/projection_errors.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/projection_errors.h
 Eigen/Eigen
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/relative_motion_terms.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/relative_motion_terms.h
 error_utils.h
-/home/yjw/KMU_SLAM/opensfm/src/bundle/src/error_utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/bundle/src/error_utils.h
 Eigen/Eigen
 -
 

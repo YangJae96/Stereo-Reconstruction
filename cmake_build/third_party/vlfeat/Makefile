@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yjw/KMU_SLAM/opensfm/src
+CMAKE_SOURCE_DIR = "/home/yjw/Stereo Reconstruction/opensfm/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yjw/KMU_SLAM/cmake_build
+CMAKE_BINARY_DIR = "/home/yjw/Stereo Reconstruction/cmake_build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles /home/yjw/KMU_SLAM/cmake_build/third_party/vlfeat/CMakeFiles/progress.marks
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" "/home/yjw/Stereo Reconstruction/cmake_build/third_party/vlfeat/CMakeFiles/progress.marks"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/clean
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/vlfeat/CMakeFiles/vl.dir/rule:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/CMakeFiles/vl.dir/rule
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/vlfeat/CMakeFiles/vl.dir/rule
 .PHONY : third_party/vlfeat/CMakeFiles/vl.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ vl: third_party/vlfeat/CMakeFiles/vl.dir/rule
 
 # fast build rule for target.
 vl/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/build
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/build
 .PHONY : vl/fast
 
 vl/aib.o: vl/aib.c.o
@@ -142,7 +142,7 @@ vl/aib.o: vl/aib.c.o
 
 # target to build an object file
 vl/aib.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/aib.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/aib.c.o
 .PHONY : vl/aib.c.o
 
 vl/aib.i: vl/aib.c.i
@@ -151,7 +151,7 @@ vl/aib.i: vl/aib.c.i
 
 # target to preprocess a source file
 vl/aib.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/aib.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/aib.c.i
 .PHONY : vl/aib.c.i
 
 vl/aib.s: vl/aib.c.s
@@ -160,7 +160,7 @@ vl/aib.s: vl/aib.c.s
 
 # target to generate assembly for a file
 vl/aib.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/aib.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/aib.c.s
 .PHONY : vl/aib.c.s
 
 vl/array.o: vl/array.c.o
@@ -169,7 +169,7 @@ vl/array.o: vl/array.c.o
 
 # target to build an object file
 vl/array.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/array.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/array.c.o
 .PHONY : vl/array.c.o
 
 vl/array.i: vl/array.c.i
@@ -178,7 +178,7 @@ vl/array.i: vl/array.c.i
 
 # target to preprocess a source file
 vl/array.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/array.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/array.c.i
 .PHONY : vl/array.c.i
 
 vl/array.s: vl/array.c.s
@@ -187,7 +187,7 @@ vl/array.s: vl/array.c.s
 
 # target to generate assembly for a file
 vl/array.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/array.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/array.c.s
 .PHONY : vl/array.c.s
 
 vl/covdet.o: vl/covdet.c.o
@@ -196,7 +196,7 @@ vl/covdet.o: vl/covdet.c.o
 
 # target to build an object file
 vl/covdet.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/covdet.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/covdet.c.o
 .PHONY : vl/covdet.c.o
 
 vl/covdet.i: vl/covdet.c.i
@@ -205,7 +205,7 @@ vl/covdet.i: vl/covdet.c.i
 
 # target to preprocess a source file
 vl/covdet.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/covdet.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/covdet.c.i
 .PHONY : vl/covdet.c.i
 
 vl/covdet.s: vl/covdet.c.s
@@ -214,7 +214,7 @@ vl/covdet.s: vl/covdet.c.s
 
 # target to generate assembly for a file
 vl/covdet.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/covdet.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/covdet.c.s
 .PHONY : vl/covdet.c.s
 
 vl/dsift.o: vl/dsift.c.o
@@ -223,7 +223,7 @@ vl/dsift.o: vl/dsift.c.o
 
 # target to build an object file
 vl/dsift.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/dsift.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/dsift.c.o
 .PHONY : vl/dsift.c.o
 
 vl/dsift.i: vl/dsift.c.i
@@ -232,7 +232,7 @@ vl/dsift.i: vl/dsift.c.i
 
 # target to preprocess a source file
 vl/dsift.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/dsift.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/dsift.c.i
 .PHONY : vl/dsift.c.i
 
 vl/dsift.s: vl/dsift.c.s
@@ -241,7 +241,7 @@ vl/dsift.s: vl/dsift.c.s
 
 # target to generate assembly for a file
 vl/dsift.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/dsift.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/dsift.c.s
 .PHONY : vl/dsift.c.s
 
 vl/fisher.o: vl/fisher.c.o
@@ -250,7 +250,7 @@ vl/fisher.o: vl/fisher.c.o
 
 # target to build an object file
 vl/fisher.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/fisher.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/fisher.c.o
 .PHONY : vl/fisher.c.o
 
 vl/fisher.i: vl/fisher.c.i
@@ -259,7 +259,7 @@ vl/fisher.i: vl/fisher.c.i
 
 # target to preprocess a source file
 vl/fisher.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/fisher.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/fisher.c.i
 .PHONY : vl/fisher.c.i
 
 vl/fisher.s: vl/fisher.c.s
@@ -268,7 +268,7 @@ vl/fisher.s: vl/fisher.c.s
 
 # target to generate assembly for a file
 vl/fisher.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/fisher.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/fisher.c.s
 .PHONY : vl/fisher.c.s
 
 vl/generic.o: vl/generic.c.o
@@ -277,7 +277,7 @@ vl/generic.o: vl/generic.c.o
 
 # target to build an object file
 vl/generic.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/generic.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/generic.c.o
 .PHONY : vl/generic.c.o
 
 vl/generic.i: vl/generic.c.i
@@ -286,7 +286,7 @@ vl/generic.i: vl/generic.c.i
 
 # target to preprocess a source file
 vl/generic.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/generic.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/generic.c.i
 .PHONY : vl/generic.c.i
 
 vl/generic.s: vl/generic.c.s
@@ -295,7 +295,7 @@ vl/generic.s: vl/generic.c.s
 
 # target to generate assembly for a file
 vl/generic.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/generic.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/generic.c.s
 .PHONY : vl/generic.c.s
 
 vl/getopt_long.o: vl/getopt_long.c.o
@@ -304,7 +304,7 @@ vl/getopt_long.o: vl/getopt_long.c.o
 
 # target to build an object file
 vl/getopt_long.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/getopt_long.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/getopt_long.c.o
 .PHONY : vl/getopt_long.c.o
 
 vl/getopt_long.i: vl/getopt_long.c.i
@@ -313,7 +313,7 @@ vl/getopt_long.i: vl/getopt_long.c.i
 
 # target to preprocess a source file
 vl/getopt_long.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/getopt_long.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/getopt_long.c.i
 .PHONY : vl/getopt_long.c.i
 
 vl/getopt_long.s: vl/getopt_long.c.s
@@ -322,7 +322,7 @@ vl/getopt_long.s: vl/getopt_long.c.s
 
 # target to generate assembly for a file
 vl/getopt_long.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/getopt_long.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/getopt_long.c.s
 .PHONY : vl/getopt_long.c.s
 
 vl/gmm.o: vl/gmm.c.o
@@ -331,7 +331,7 @@ vl/gmm.o: vl/gmm.c.o
 
 # target to build an object file
 vl/gmm.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/gmm.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/gmm.c.o
 .PHONY : vl/gmm.c.o
 
 vl/gmm.i: vl/gmm.c.i
@@ -340,7 +340,7 @@ vl/gmm.i: vl/gmm.c.i
 
 # target to preprocess a source file
 vl/gmm.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/gmm.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/gmm.c.i
 .PHONY : vl/gmm.c.i
 
 vl/gmm.s: vl/gmm.c.s
@@ -349,7 +349,7 @@ vl/gmm.s: vl/gmm.c.s
 
 # target to generate assembly for a file
 vl/gmm.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/gmm.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/gmm.c.s
 .PHONY : vl/gmm.c.s
 
 vl/hikmeans.o: vl/hikmeans.c.o
@@ -358,7 +358,7 @@ vl/hikmeans.o: vl/hikmeans.c.o
 
 # target to build an object file
 vl/hikmeans.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hikmeans.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hikmeans.c.o
 .PHONY : vl/hikmeans.c.o
 
 vl/hikmeans.i: vl/hikmeans.c.i
@@ -367,7 +367,7 @@ vl/hikmeans.i: vl/hikmeans.c.i
 
 # target to preprocess a source file
 vl/hikmeans.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hikmeans.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hikmeans.c.i
 .PHONY : vl/hikmeans.c.i
 
 vl/hikmeans.s: vl/hikmeans.c.s
@@ -376,7 +376,7 @@ vl/hikmeans.s: vl/hikmeans.c.s
 
 # target to generate assembly for a file
 vl/hikmeans.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hikmeans.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hikmeans.c.s
 .PHONY : vl/hikmeans.c.s
 
 vl/hog.o: vl/hog.c.o
@@ -385,7 +385,7 @@ vl/hog.o: vl/hog.c.o
 
 # target to build an object file
 vl/hog.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hog.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hog.c.o
 .PHONY : vl/hog.c.o
 
 vl/hog.i: vl/hog.c.i
@@ -394,7 +394,7 @@ vl/hog.i: vl/hog.c.i
 
 # target to preprocess a source file
 vl/hog.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hog.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hog.c.i
 .PHONY : vl/hog.c.i
 
 vl/hog.s: vl/hog.c.s
@@ -403,7 +403,7 @@ vl/hog.s: vl/hog.c.s
 
 # target to generate assembly for a file
 vl/hog.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hog.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/hog.c.s
 .PHONY : vl/hog.c.s
 
 vl/homkermap.o: vl/homkermap.c.o
@@ -412,7 +412,7 @@ vl/homkermap.o: vl/homkermap.c.o
 
 # target to build an object file
 vl/homkermap.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/homkermap.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/homkermap.c.o
 .PHONY : vl/homkermap.c.o
 
 vl/homkermap.i: vl/homkermap.c.i
@@ -421,7 +421,7 @@ vl/homkermap.i: vl/homkermap.c.i
 
 # target to preprocess a source file
 vl/homkermap.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/homkermap.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/homkermap.c.i
 .PHONY : vl/homkermap.c.i
 
 vl/homkermap.s: vl/homkermap.c.s
@@ -430,7 +430,7 @@ vl/homkermap.s: vl/homkermap.c.s
 
 # target to generate assembly for a file
 vl/homkermap.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/homkermap.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/homkermap.c.s
 .PHONY : vl/homkermap.c.s
 
 vl/host.o: vl/host.c.o
@@ -439,7 +439,7 @@ vl/host.o: vl/host.c.o
 
 # target to build an object file
 vl/host.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/host.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/host.c.o
 .PHONY : vl/host.c.o
 
 vl/host.i: vl/host.c.i
@@ -448,7 +448,7 @@ vl/host.i: vl/host.c.i
 
 # target to preprocess a source file
 vl/host.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/host.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/host.c.i
 .PHONY : vl/host.c.i
 
 vl/host.s: vl/host.c.s
@@ -457,7 +457,7 @@ vl/host.s: vl/host.c.s
 
 # target to generate assembly for a file
 vl/host.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/host.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/host.c.s
 .PHONY : vl/host.c.s
 
 vl/ikmeans.o: vl/ikmeans.c.o
@@ -466,7 +466,7 @@ vl/ikmeans.o: vl/ikmeans.c.o
 
 # target to build an object file
 vl/ikmeans.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/ikmeans.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/ikmeans.c.o
 .PHONY : vl/ikmeans.c.o
 
 vl/ikmeans.i: vl/ikmeans.c.i
@@ -475,7 +475,7 @@ vl/ikmeans.i: vl/ikmeans.c.i
 
 # target to preprocess a source file
 vl/ikmeans.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/ikmeans.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/ikmeans.c.i
 .PHONY : vl/ikmeans.c.i
 
 vl/ikmeans.s: vl/ikmeans.c.s
@@ -484,7 +484,7 @@ vl/ikmeans.s: vl/ikmeans.c.s
 
 # target to generate assembly for a file
 vl/ikmeans.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/ikmeans.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/ikmeans.c.s
 .PHONY : vl/ikmeans.c.s
 
 vl/imopv.o: vl/imopv.c.o
@@ -493,7 +493,7 @@ vl/imopv.o: vl/imopv.c.o
 
 # target to build an object file
 vl/imopv.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv.c.o
 .PHONY : vl/imopv.c.o
 
 vl/imopv.i: vl/imopv.c.i
@@ -502,7 +502,7 @@ vl/imopv.i: vl/imopv.c.i
 
 # target to preprocess a source file
 vl/imopv.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv.c.i
 .PHONY : vl/imopv.c.i
 
 vl/imopv.s: vl/imopv.c.s
@@ -511,7 +511,7 @@ vl/imopv.s: vl/imopv.c.s
 
 # target to generate assembly for a file
 vl/imopv.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv.c.s
 .PHONY : vl/imopv.c.s
 
 vl/imopv_sse2.o: vl/imopv_sse2.c.o
@@ -520,7 +520,7 @@ vl/imopv_sse2.o: vl/imopv_sse2.c.o
 
 # target to build an object file
 vl/imopv_sse2.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv_sse2.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv_sse2.c.o
 .PHONY : vl/imopv_sse2.c.o
 
 vl/imopv_sse2.i: vl/imopv_sse2.c.i
@@ -529,7 +529,7 @@ vl/imopv_sse2.i: vl/imopv_sse2.c.i
 
 # target to preprocess a source file
 vl/imopv_sse2.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv_sse2.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv_sse2.c.i
 .PHONY : vl/imopv_sse2.c.i
 
 vl/imopv_sse2.s: vl/imopv_sse2.c.s
@@ -538,7 +538,7 @@ vl/imopv_sse2.s: vl/imopv_sse2.c.s
 
 # target to generate assembly for a file
 vl/imopv_sse2.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv_sse2.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/imopv_sse2.c.s
 .PHONY : vl/imopv_sse2.c.s
 
 vl/kdtree.o: vl/kdtree.c.o
@@ -547,7 +547,7 @@ vl/kdtree.o: vl/kdtree.c.o
 
 # target to build an object file
 vl/kdtree.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kdtree.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kdtree.c.o
 .PHONY : vl/kdtree.c.o
 
 vl/kdtree.i: vl/kdtree.c.i
@@ -556,7 +556,7 @@ vl/kdtree.i: vl/kdtree.c.i
 
 # target to preprocess a source file
 vl/kdtree.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kdtree.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kdtree.c.i
 .PHONY : vl/kdtree.c.i
 
 vl/kdtree.s: vl/kdtree.c.s
@@ -565,7 +565,7 @@ vl/kdtree.s: vl/kdtree.c.s
 
 # target to generate assembly for a file
 vl/kdtree.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kdtree.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kdtree.c.s
 .PHONY : vl/kdtree.c.s
 
 vl/kmeans.o: vl/kmeans.c.o
@@ -574,7 +574,7 @@ vl/kmeans.o: vl/kmeans.c.o
 
 # target to build an object file
 vl/kmeans.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kmeans.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kmeans.c.o
 .PHONY : vl/kmeans.c.o
 
 vl/kmeans.i: vl/kmeans.c.i
@@ -583,7 +583,7 @@ vl/kmeans.i: vl/kmeans.c.i
 
 # target to preprocess a source file
 vl/kmeans.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kmeans.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kmeans.c.i
 .PHONY : vl/kmeans.c.i
 
 vl/kmeans.s: vl/kmeans.c.s
@@ -592,7 +592,7 @@ vl/kmeans.s: vl/kmeans.c.s
 
 # target to generate assembly for a file
 vl/kmeans.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kmeans.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/kmeans.c.s
 .PHONY : vl/kmeans.c.s
 
 vl/lbp.o: vl/lbp.c.o
@@ -601,7 +601,7 @@ vl/lbp.o: vl/lbp.c.o
 
 # target to build an object file
 vl/lbp.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/lbp.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/lbp.c.o
 .PHONY : vl/lbp.c.o
 
 vl/lbp.i: vl/lbp.c.i
@@ -610,7 +610,7 @@ vl/lbp.i: vl/lbp.c.i
 
 # target to preprocess a source file
 vl/lbp.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/lbp.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/lbp.c.i
 .PHONY : vl/lbp.c.i
 
 vl/lbp.s: vl/lbp.c.s
@@ -619,7 +619,7 @@ vl/lbp.s: vl/lbp.c.s
 
 # target to generate assembly for a file
 vl/lbp.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/lbp.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/lbp.c.s
 .PHONY : vl/lbp.c.s
 
 vl/liop.o: vl/liop.c.o
@@ -628,7 +628,7 @@ vl/liop.o: vl/liop.c.o
 
 # target to build an object file
 vl/liop.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/liop.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/liop.c.o
 .PHONY : vl/liop.c.o
 
 vl/liop.i: vl/liop.c.i
@@ -637,7 +637,7 @@ vl/liop.i: vl/liop.c.i
 
 # target to preprocess a source file
 vl/liop.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/liop.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/liop.c.i
 .PHONY : vl/liop.c.i
 
 vl/liop.s: vl/liop.c.s
@@ -646,7 +646,7 @@ vl/liop.s: vl/liop.c.s
 
 # target to generate assembly for a file
 vl/liop.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/liop.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/liop.c.s
 .PHONY : vl/liop.c.s
 
 vl/mathop.o: vl/mathop.c.o
@@ -655,7 +655,7 @@ vl/mathop.o: vl/mathop.c.o
 
 # target to build an object file
 vl/mathop.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop.c.o
 .PHONY : vl/mathop.c.o
 
 vl/mathop.i: vl/mathop.c.i
@@ -664,7 +664,7 @@ vl/mathop.i: vl/mathop.c.i
 
 # target to preprocess a source file
 vl/mathop.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop.c.i
 .PHONY : vl/mathop.c.i
 
 vl/mathop.s: vl/mathop.c.s
@@ -673,7 +673,7 @@ vl/mathop.s: vl/mathop.c.s
 
 # target to generate assembly for a file
 vl/mathop.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop.c.s
 .PHONY : vl/mathop.c.s
 
 vl/mathop_avx.o: vl/mathop_avx.c.o
@@ -682,7 +682,7 @@ vl/mathop_avx.o: vl/mathop_avx.c.o
 
 # target to build an object file
 vl/mathop_avx.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_avx.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_avx.c.o
 .PHONY : vl/mathop_avx.c.o
 
 vl/mathop_avx.i: vl/mathop_avx.c.i
@@ -691,7 +691,7 @@ vl/mathop_avx.i: vl/mathop_avx.c.i
 
 # target to preprocess a source file
 vl/mathop_avx.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_avx.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_avx.c.i
 .PHONY : vl/mathop_avx.c.i
 
 vl/mathop_avx.s: vl/mathop_avx.c.s
@@ -700,7 +700,7 @@ vl/mathop_avx.s: vl/mathop_avx.c.s
 
 # target to generate assembly for a file
 vl/mathop_avx.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_avx.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_avx.c.s
 .PHONY : vl/mathop_avx.c.s
 
 vl/mathop_sse2.o: vl/mathop_sse2.c.o
@@ -709,7 +709,7 @@ vl/mathop_sse2.o: vl/mathop_sse2.c.o
 
 # target to build an object file
 vl/mathop_sse2.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_sse2.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_sse2.c.o
 .PHONY : vl/mathop_sse2.c.o
 
 vl/mathop_sse2.i: vl/mathop_sse2.c.i
@@ -718,7 +718,7 @@ vl/mathop_sse2.i: vl/mathop_sse2.c.i
 
 # target to preprocess a source file
 vl/mathop_sse2.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_sse2.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_sse2.c.i
 .PHONY : vl/mathop_sse2.c.i
 
 vl/mathop_sse2.s: vl/mathop_sse2.c.s
@@ -727,7 +727,7 @@ vl/mathop_sse2.s: vl/mathop_sse2.c.s
 
 # target to generate assembly for a file
 vl/mathop_sse2.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_sse2.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mathop_sse2.c.s
 .PHONY : vl/mathop_sse2.c.s
 
 vl/mser.o: vl/mser.c.o
@@ -736,7 +736,7 @@ vl/mser.o: vl/mser.c.o
 
 # target to build an object file
 vl/mser.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mser.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mser.c.o
 .PHONY : vl/mser.c.o
 
 vl/mser.i: vl/mser.c.i
@@ -745,7 +745,7 @@ vl/mser.i: vl/mser.c.i
 
 # target to preprocess a source file
 vl/mser.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mser.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mser.c.i
 .PHONY : vl/mser.c.i
 
 vl/mser.s: vl/mser.c.s
@@ -754,7 +754,7 @@ vl/mser.s: vl/mser.c.s
 
 # target to generate assembly for a file
 vl/mser.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mser.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/mser.c.s
 .PHONY : vl/mser.c.s
 
 vl/pgm.o: vl/pgm.c.o
@@ -763,7 +763,7 @@ vl/pgm.o: vl/pgm.c.o
 
 # target to build an object file
 vl/pgm.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/pgm.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/pgm.c.o
 .PHONY : vl/pgm.c.o
 
 vl/pgm.i: vl/pgm.c.i
@@ -772,7 +772,7 @@ vl/pgm.i: vl/pgm.c.i
 
 # target to preprocess a source file
 vl/pgm.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/pgm.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/pgm.c.i
 .PHONY : vl/pgm.c.i
 
 vl/pgm.s: vl/pgm.c.s
@@ -781,7 +781,7 @@ vl/pgm.s: vl/pgm.c.s
 
 # target to generate assembly for a file
 vl/pgm.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/pgm.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/pgm.c.s
 .PHONY : vl/pgm.c.s
 
 vl/quickshift.o: vl/quickshift.c.o
@@ -790,7 +790,7 @@ vl/quickshift.o: vl/quickshift.c.o
 
 # target to build an object file
 vl/quickshift.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/quickshift.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/quickshift.c.o
 .PHONY : vl/quickshift.c.o
 
 vl/quickshift.i: vl/quickshift.c.i
@@ -799,7 +799,7 @@ vl/quickshift.i: vl/quickshift.c.i
 
 # target to preprocess a source file
 vl/quickshift.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/quickshift.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/quickshift.c.i
 .PHONY : vl/quickshift.c.i
 
 vl/quickshift.s: vl/quickshift.c.s
@@ -808,7 +808,7 @@ vl/quickshift.s: vl/quickshift.c.s
 
 # target to generate assembly for a file
 vl/quickshift.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/quickshift.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/quickshift.c.s
 .PHONY : vl/quickshift.c.s
 
 vl/random.o: vl/random.c.o
@@ -817,7 +817,7 @@ vl/random.o: vl/random.c.o
 
 # target to build an object file
 vl/random.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/random.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/random.c.o
 .PHONY : vl/random.c.o
 
 vl/random.i: vl/random.c.i
@@ -826,7 +826,7 @@ vl/random.i: vl/random.c.i
 
 # target to preprocess a source file
 vl/random.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/random.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/random.c.i
 .PHONY : vl/random.c.i
 
 vl/random.s: vl/random.c.s
@@ -835,7 +835,7 @@ vl/random.s: vl/random.c.s
 
 # target to generate assembly for a file
 vl/random.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/random.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/random.c.s
 .PHONY : vl/random.c.s
 
 vl/rodrigues.o: vl/rodrigues.c.o
@@ -844,7 +844,7 @@ vl/rodrigues.o: vl/rodrigues.c.o
 
 # target to build an object file
 vl/rodrigues.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/rodrigues.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/rodrigues.c.o
 .PHONY : vl/rodrigues.c.o
 
 vl/rodrigues.i: vl/rodrigues.c.i
@@ -853,7 +853,7 @@ vl/rodrigues.i: vl/rodrigues.c.i
 
 # target to preprocess a source file
 vl/rodrigues.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/rodrigues.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/rodrigues.c.i
 .PHONY : vl/rodrigues.c.i
 
 vl/rodrigues.s: vl/rodrigues.c.s
@@ -862,7 +862,7 @@ vl/rodrigues.s: vl/rodrigues.c.s
 
 # target to generate assembly for a file
 vl/rodrigues.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/rodrigues.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/rodrigues.c.s
 .PHONY : vl/rodrigues.c.s
 
 vl/scalespace.o: vl/scalespace.c.o
@@ -871,7 +871,7 @@ vl/scalespace.o: vl/scalespace.c.o
 
 # target to build an object file
 vl/scalespace.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/scalespace.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/scalespace.c.o
 .PHONY : vl/scalespace.c.o
 
 vl/scalespace.i: vl/scalespace.c.i
@@ -880,7 +880,7 @@ vl/scalespace.i: vl/scalespace.c.i
 
 # target to preprocess a source file
 vl/scalespace.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/scalespace.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/scalespace.c.i
 .PHONY : vl/scalespace.c.i
 
 vl/scalespace.s: vl/scalespace.c.s
@@ -889,7 +889,7 @@ vl/scalespace.s: vl/scalespace.c.s
 
 # target to generate assembly for a file
 vl/scalespace.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/scalespace.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/scalespace.c.s
 .PHONY : vl/scalespace.c.s
 
 vl/sift.o: vl/sift.c.o
@@ -898,7 +898,7 @@ vl/sift.o: vl/sift.c.o
 
 # target to build an object file
 vl/sift.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/sift.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/sift.c.o
 .PHONY : vl/sift.c.o
 
 vl/sift.i: vl/sift.c.i
@@ -907,7 +907,7 @@ vl/sift.i: vl/sift.c.i
 
 # target to preprocess a source file
 vl/sift.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/sift.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/sift.c.i
 .PHONY : vl/sift.c.i
 
 vl/sift.s: vl/sift.c.s
@@ -916,7 +916,7 @@ vl/sift.s: vl/sift.c.s
 
 # target to generate assembly for a file
 vl/sift.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/sift.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/sift.c.s
 .PHONY : vl/sift.c.s
 
 vl/slic.o: vl/slic.c.o
@@ -925,7 +925,7 @@ vl/slic.o: vl/slic.c.o
 
 # target to build an object file
 vl/slic.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/slic.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/slic.c.o
 .PHONY : vl/slic.c.o
 
 vl/slic.i: vl/slic.c.i
@@ -934,7 +934,7 @@ vl/slic.i: vl/slic.c.i
 
 # target to preprocess a source file
 vl/slic.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/slic.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/slic.c.i
 .PHONY : vl/slic.c.i
 
 vl/slic.s: vl/slic.c.s
@@ -943,7 +943,7 @@ vl/slic.s: vl/slic.c.s
 
 # target to generate assembly for a file
 vl/slic.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/slic.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/slic.c.s
 .PHONY : vl/slic.c.s
 
 vl/stringop.o: vl/stringop.c.o
@@ -952,7 +952,7 @@ vl/stringop.o: vl/stringop.c.o
 
 # target to build an object file
 vl/stringop.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/stringop.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/stringop.c.o
 .PHONY : vl/stringop.c.o
 
 vl/stringop.i: vl/stringop.c.i
@@ -961,7 +961,7 @@ vl/stringop.i: vl/stringop.c.i
 
 # target to preprocess a source file
 vl/stringop.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/stringop.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/stringop.c.i
 .PHONY : vl/stringop.c.i
 
 vl/stringop.s: vl/stringop.c.s
@@ -970,7 +970,7 @@ vl/stringop.s: vl/stringop.c.s
 
 # target to generate assembly for a file
 vl/stringop.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/stringop.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/stringop.c.s
 .PHONY : vl/stringop.c.s
 
 vl/svm.o: vl/svm.c.o
@@ -979,7 +979,7 @@ vl/svm.o: vl/svm.c.o
 
 # target to build an object file
 vl/svm.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svm.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svm.c.o
 .PHONY : vl/svm.c.o
 
 vl/svm.i: vl/svm.c.i
@@ -988,7 +988,7 @@ vl/svm.i: vl/svm.c.i
 
 # target to preprocess a source file
 vl/svm.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svm.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svm.c.i
 .PHONY : vl/svm.c.i
 
 vl/svm.s: vl/svm.c.s
@@ -997,7 +997,7 @@ vl/svm.s: vl/svm.c.s
 
 # target to generate assembly for a file
 vl/svm.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svm.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svm.c.s
 .PHONY : vl/svm.c.s
 
 vl/svmdataset.o: vl/svmdataset.c.o
@@ -1006,7 +1006,7 @@ vl/svmdataset.o: vl/svmdataset.c.o
 
 # target to build an object file
 vl/svmdataset.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svmdataset.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svmdataset.c.o
 .PHONY : vl/svmdataset.c.o
 
 vl/svmdataset.i: vl/svmdataset.c.i
@@ -1015,7 +1015,7 @@ vl/svmdataset.i: vl/svmdataset.c.i
 
 # target to preprocess a source file
 vl/svmdataset.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svmdataset.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svmdataset.c.i
 .PHONY : vl/svmdataset.c.i
 
 vl/svmdataset.s: vl/svmdataset.c.s
@@ -1024,7 +1024,7 @@ vl/svmdataset.s: vl/svmdataset.c.s
 
 # target to generate assembly for a file
 vl/svmdataset.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svmdataset.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/svmdataset.c.s
 .PHONY : vl/svmdataset.c.s
 
 vl/vlad.o: vl/vlad.c.o
@@ -1033,7 +1033,7 @@ vl/vlad.o: vl/vlad.c.o
 
 # target to build an object file
 vl/vlad.c.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/vlad.c.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/vlad.c.o
 .PHONY : vl/vlad.c.o
 
 vl/vlad.i: vl/vlad.c.i
@@ -1042,7 +1042,7 @@ vl/vlad.i: vl/vlad.c.i
 
 # target to preprocess a source file
 vl/vlad.c.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/vlad.c.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/vlad.c.i
 .PHONY : vl/vlad.c.i
 
 vl/vlad.s: vl/vlad.c.s
@@ -1051,7 +1051,7 @@ vl/vlad.s: vl/vlad.c.s
 
 # target to generate assembly for a file
 vl/vlad.c.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/vlad.c.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/vlfeat/CMakeFiles/vl.dir/build.make third_party/vlfeat/CMakeFiles/vl.dir/vl/vlad.c.s
 .PHONY : vl/vlad.c.s
 
 # Help Target
@@ -1177,6 +1177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

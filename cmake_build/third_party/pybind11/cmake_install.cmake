@@ -1,4 +1,4 @@
-# Install script for directory: /home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11
+# Install script for directory: /home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

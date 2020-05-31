@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yjw/KMU_SLAM/opensfm/src
+CMAKE_SOURCE_DIR = "/home/yjw/Stereo Reconstruction/opensfm/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yjw/KMU_SLAM/cmake_build
+CMAKE_BINARY_DIR = "/home/yjw/Stereo Reconstruction/cmake_build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles /home/yjw/KMU_SLAM/cmake_build/third_party/akaze/CMakeFiles/progress.marks
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" "/home/yjw/Stereo Reconstruction/cmake_build/third_party/akaze/CMakeFiles/progress.marks"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/clean
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/akaze/CMakeFiles/akaze.dir/rule:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/CMakeFiles/akaze.dir/rule
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 third_party/akaze/CMakeFiles/akaze.dir/rule
 .PHONY : third_party/akaze/CMakeFiles/akaze.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ akaze: third_party/akaze/CMakeFiles/akaze.dir/rule
 
 # fast build rule for target.
 akaze/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/build
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/build
 .PHONY : akaze/fast
 
 lib/AKAZE.o: lib/AKAZE.cpp.o
@@ -142,7 +142,7 @@ lib/AKAZE.o: lib/AKAZE.cpp.o
 
 # target to build an object file
 lib/AKAZE.cpp.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/AKAZE.cpp.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/AKAZE.cpp.o
 .PHONY : lib/AKAZE.cpp.o
 
 lib/AKAZE.i: lib/AKAZE.cpp.i
@@ -151,7 +151,7 @@ lib/AKAZE.i: lib/AKAZE.cpp.i
 
 # target to preprocess a source file
 lib/AKAZE.cpp.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/AKAZE.cpp.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/AKAZE.cpp.i
 .PHONY : lib/AKAZE.cpp.i
 
 lib/AKAZE.s: lib/AKAZE.cpp.s
@@ -160,7 +160,7 @@ lib/AKAZE.s: lib/AKAZE.cpp.s
 
 # target to generate assembly for a file
 lib/AKAZE.cpp.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/AKAZE.cpp.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/AKAZE.cpp.s
 .PHONY : lib/AKAZE.cpp.s
 
 lib/fed.o: lib/fed.cpp.o
@@ -169,7 +169,7 @@ lib/fed.o: lib/fed.cpp.o
 
 # target to build an object file
 lib/fed.cpp.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/fed.cpp.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/fed.cpp.o
 .PHONY : lib/fed.cpp.o
 
 lib/fed.i: lib/fed.cpp.i
@@ -178,7 +178,7 @@ lib/fed.i: lib/fed.cpp.i
 
 # target to preprocess a source file
 lib/fed.cpp.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/fed.cpp.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/fed.cpp.i
 .PHONY : lib/fed.cpp.i
 
 lib/fed.s: lib/fed.cpp.s
@@ -187,7 +187,7 @@ lib/fed.s: lib/fed.cpp.s
 
 # target to generate assembly for a file
 lib/fed.cpp.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/fed.cpp.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/fed.cpp.s
 .PHONY : lib/fed.cpp.s
 
 lib/nldiffusion_functions.o: lib/nldiffusion_functions.cpp.o
@@ -196,7 +196,7 @@ lib/nldiffusion_functions.o: lib/nldiffusion_functions.cpp.o
 
 # target to build an object file
 lib/nldiffusion_functions.cpp.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/nldiffusion_functions.cpp.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/nldiffusion_functions.cpp.o
 .PHONY : lib/nldiffusion_functions.cpp.o
 
 lib/nldiffusion_functions.i: lib/nldiffusion_functions.cpp.i
@@ -205,7 +205,7 @@ lib/nldiffusion_functions.i: lib/nldiffusion_functions.cpp.i
 
 # target to preprocess a source file
 lib/nldiffusion_functions.cpp.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/nldiffusion_functions.cpp.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/nldiffusion_functions.cpp.i
 .PHONY : lib/nldiffusion_functions.cpp.i
 
 lib/nldiffusion_functions.s: lib/nldiffusion_functions.cpp.s
@@ -214,7 +214,7 @@ lib/nldiffusion_functions.s: lib/nldiffusion_functions.cpp.s
 
 # target to generate assembly for a file
 lib/nldiffusion_functions.cpp.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/nldiffusion_functions.cpp.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/nldiffusion_functions.cpp.s
 .PHONY : lib/nldiffusion_functions.cpp.s
 
 lib/utils.o: lib/utils.cpp.o
@@ -223,7 +223,7 @@ lib/utils.o: lib/utils.cpp.o
 
 # target to build an object file
 lib/utils.cpp.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/utils.cpp.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/utils.cpp.o
 .PHONY : lib/utils.cpp.o
 
 lib/utils.i: lib/utils.cpp.i
@@ -232,7 +232,7 @@ lib/utils.i: lib/utils.cpp.i
 
 # target to preprocess a source file
 lib/utils.cpp.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/utils.cpp.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/utils.cpp.i
 .PHONY : lib/utils.cpp.i
 
 lib/utils.s: lib/utils.cpp.s
@@ -241,7 +241,7 @@ lib/utils.s: lib/utils.cpp.s
 
 # target to generate assembly for a file
 lib/utils.cpp.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/utils.cpp.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f third_party/akaze/CMakeFiles/akaze.dir/build.make third_party/akaze/CMakeFiles/akaze.dir/lib/utils.cpp.s
 .PHONY : lib/utils.cpp.s
 
 # Help Target
@@ -277,6 +277,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

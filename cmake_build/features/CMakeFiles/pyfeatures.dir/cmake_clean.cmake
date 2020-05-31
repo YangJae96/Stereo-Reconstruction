@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pyfeatures.dir/python/pybind.cc.o"
-  "/home/yjw/KMU_SLAM/opensfm/pyfeatures.pdb"
-  "/home/yjw/KMU_SLAM/opensfm/pyfeatures.cpython-37m-x86_64-linux-gnu.so"
+  "/home/yjw/Stereo Reconstruction/opensfm/pyfeatures.pdb"
+  "/home/yjw/Stereo Reconstruction/opensfm/pyfeatures.cpython-37m-x86_64-linux-gnu.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/yjw/KMU_SLAM/opensfm/src/bundle
+# Install script for directory: /home/yjw/Stereo Reconstruction/opensfm/src/bundle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

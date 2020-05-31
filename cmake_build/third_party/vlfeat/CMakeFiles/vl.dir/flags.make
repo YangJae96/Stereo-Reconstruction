@@ -6,5 +6,5 @@ C_FLAGS =  -fopenmp -O3 -DNDEBUG -fPIC
 
 C_DEFINES = -DVL_DISABLE_AVX
 
-C_INCLUDES = -I/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat 
+C_INCLUDES = -I"/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat" 
 

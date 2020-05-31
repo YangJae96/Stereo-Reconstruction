@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/AKAZE.cpp
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZE.cpp
 AKAZE.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/AKAZE.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZE.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/AKAZE.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZE.h
 AKAZEConfig.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/AKAZEConfig.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZEConfig.h
 fed.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/fed.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/fed.h
 utils.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/utils.h
 nldiffusion_functions.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
 opencv2/features2d/features2d.hpp
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/AKAZEConfig.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZEConfig.h
 opencv2/opencv.hpp
 -
 omp.h
@@ -38,33 +38,33 @@ bitset
 iomanip
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/fed.cpp
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/fed.cpp
 fed.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/fed.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/fed.h
 cmath
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/fed.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/fed.h
 vector
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/nldiffusion_functions.cpp
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/nldiffusion_functions.cpp
 nldiffusion_functions.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
 AKAZEConfig.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/utils.cpp
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/utils.cpp
 utils.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/utils.h
 opencv2/opencv.hpp
 -
 fstream
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/utils.h
 opencv2/features2d/features2d.hpp
 -
 vector

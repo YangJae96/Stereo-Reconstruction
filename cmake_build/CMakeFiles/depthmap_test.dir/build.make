@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yjw/KMU_SLAM/opensfm/src
+CMAKE_SOURCE_DIR = "/home/yjw/Stereo Reconstruction/opensfm/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yjw/KMU_SLAM/cmake_build
+CMAKE_BINARY_DIR = "/home/yjw/Stereo Reconstruction/cmake_build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/depthmap_test.dir/depend.make
@@ -58,30 +58,30 @@ include CMakeFiles/depthmap_test.dir/progress.make
 include CMakeFiles/depthmap_test.dir/flags.make
 
 CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.o: CMakeFiles/depthmap_test.dir/flags.make
-CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.o: /home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.o -c /home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap_test.cc
+CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.o: /home/yjw/Stereo\ Reconstruction/opensfm/src/dense/src/depthmap_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.o -c "/home/yjw/Stereo Reconstruction/opensfm/src/dense/src/depthmap_test.cc"
 
 CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap_test.cc > CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yjw/Stereo Reconstruction/opensfm/src/dense/src/depthmap_test.cc" > CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.i
 
 CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap_test.cc -o CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yjw/Stereo Reconstruction/opensfm/src/dense/src/depthmap_test.cc" -o CMakeFiles/depthmap_test.dir/dense/src/depthmap_test.cc.s
 
 CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.o: CMakeFiles/depthmap_test.dir/flags.make
-CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.o: /home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.o -c /home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap.cc
+CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.o: /home/yjw/Stereo\ Reconstruction/opensfm/src/dense/src/depthmap.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.o -c "/home/yjw/Stereo Reconstruction/opensfm/src/dense/src/depthmap.cc"
 
 CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap.cc > CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yjw/Stereo Reconstruction/opensfm/src/dense/src/depthmap.cc" > CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.i
 
 CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yjw/KMU_SLAM/opensfm/src/dense/src/depthmap.cc -o CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yjw/Stereo Reconstruction/opensfm/src/dense/src/depthmap.cc" -o CMakeFiles/depthmap_test.dir/dense/src/depthmap.cc.s
 
 # Object files for target depthmap_test
 depthmap_test_OBJECTS = \
@@ -116,7 +116,7 @@ depthmap_test: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 depthmap_test: /usr/lib/x86_64-linux-gnu/libglog.so
 depthmap_test: libgtest.a
 depthmap_test: CMakeFiles/depthmap_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable depthmap_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable depthmap_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/depthmap_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/depthmap_test.dir/clean:
 .PHONY : CMakeFiles/depthmap_test.dir/clean
 
 CMakeFiles/depthmap_test.dir/depend:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yjw/KMU_SLAM/opensfm/src /home/yjw/KMU_SLAM/opensfm/src /home/yjw/KMU_SLAM/cmake_build /home/yjw/KMU_SLAM/cmake_build /home/yjw/KMU_SLAM/cmake_build/CMakeFiles/depthmap_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/yjw/Stereo Reconstruction/opensfm/src" "/home/yjw/Stereo Reconstruction/opensfm/src" "/home/yjw/Stereo Reconstruction/cmake_build" "/home/yjw/Stereo Reconstruction/cmake_build" "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles/depthmap_test.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/depthmap_test.dir/depend
 

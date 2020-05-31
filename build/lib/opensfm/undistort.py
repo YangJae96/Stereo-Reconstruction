@@ -5,6 +5,7 @@ import networkx as nx
 import numpy as np
 from six import iteritems
 
+from opensfm import undistorted_dataset
 from opensfm import dataset
 from opensfm import features
 from opensfm import log
@@ -16,126 +17,75 @@ from opensfm.context import parallel_map
 logger = logging.getLogger(__name__)
 
 
-class Command:
-    name = 'undistort'
-    help = "Save radially undistorted images"
+def run(data):
+    output='undistorted'
 
-    def add_arguments(self, parser):
-        parser.add_argument(
-            'dataset',
-            help='dataset to process',
-        )
-        parser.add_argument(
-            '--reconstruction',
-            help='reconstruction to undistort',
-        )
-        parser.add_argument(
-            '--reconstruction-index',
-            help='index of the reconstruction component to undistort',
-            type=int,
-            default=0,
-        )
-        parser.add_argument(
-            '--tracks',
-            help='tracks graph of the reconstruction',
-        )
-        parser.add_argument(
-            '--output',
-            help='output folder',
-            default='undistorted',
-        )
+    udata = undistorted_dataset.UndistortedDataSet(data,output)
+    reconstructions = data.reconstructions
+    graph=data.track_graph_of_images
 
-    def run(self, args):
-        data = dataset.DataSet(args.dataset)
-        udata = dataset.UndistortedDataSet(data, args.output)
-        reconstructions = data.load_reconstruction(args.reconstruction)
-        if data.tracks_exists(args.tracks):
-            graph = data.load_tracks_graph(args.tracks)
-        else:
-            graph = None
+    data.save_udata(udata)
 
-        if reconstructions:
-            r = reconstructions[args.reconstruction_index]
-            self.undistort_reconstruction(graph, r, data, udata)
+    if reconstructions:
+        r = reconstructions[0]
+        undistort_reconstruction(graph, r, data, udata)
 
-    def undistort_reconstruction(self, graph, reconstruction, data, udata):
-        urec = types.Reconstruction()
-        urec.points = reconstruction.points
-        ugraph = nx.Graph()
+def undistort_reconstruction(graph, reconstruction, data, udata):
+    urec = types.Reconstruction()
+    urec.points = reconstruction.points
+    ugraph = nx.Graph()
 
-        logger.debug('Undistorting the reconstruction')
-        undistorted_shots = {}
-        for shot in reconstruction.shots.values():
-            if shot.camera.projection_type == 'perspective':
-                camera = perspective_camera_from_perspective(shot.camera)
-                subshots = [get_shot_with_different_camera(shot, camera)]
-            elif shot.camera.projection_type == 'brown':
-                camera = perspective_camera_from_brown(shot.camera)
-                subshots = [get_shot_with_different_camera(shot, camera)]
-            elif shot.camera.projection_type == 'fisheye':
-                camera = perspective_camera_from_fisheye(shot.camera)
-                subshots = [get_shot_with_different_camera(shot, camera)]
-            elif shot.camera.projection_type in ['equirectangular', 'spherical']:
-                subshot_width = int(data.config['depthmap_resolution'])
-                subshots = perspective_views_of_a_panorama(shot, subshot_width)
+    logger.debug('Undistorting the reconstruction')
+    undistorted_shots = {}
+    for shot in reconstruction.shots.values():
+        if shot.camera.projection_type == 'perspective':
+            camera = perspective_camera_from_perspective(shot.camera)
+            subshots = [get_shot_with_different_camera(shot, camera)]
+        elif shot.camera.projection_type == 'brown':
+            camera = perspective_camera_from_brown(shot.camera)
+            subshots = [get_shot_with_different_camera(shot, camera)]
+        elif shot.camera.projection_type == 'fisheye':
+            camera = perspective_camera_from_fisheye(shot.camera)
+            subshots = [get_shot_with_different_camera(shot, camera)]
+        elif shot.camera.projection_type in ['equirectangular', 'spherical']:
+            subshot_width = int(data.config['depthmap_resolution'])
+            subshots = perspective_views_of_a_panorama(shot, subshot_width)
 
-            for subshot in subshots:
-                urec.add_camera(subshot.camera)
-                urec.add_shot(subshot)
-                if graph:
-                    add_subshot_tracks(graph, ugraph, shot, subshot)
-            undistorted_shots[shot.id] = subshots
+        for subshot in subshots:
+            urec.add_camera(subshot.camera)
+            urec.add_shot(subshot)
+            if graph:
+                add_subshot_tracks(graph, ugraph, shot, subshot)
+        undistorted_shots[shot.id] = subshots
 
-        udata.save_undistorted_reconstruction([urec])
-        if graph:
-            udata.save_undistorted_tracks_graph(ugraph)
+    #udata.save_undistorted_reconstruction([urec])
+    data.save_undistorted_reconstruction([urec])
 
-        arguments = []
-        for shot in reconstruction.shots.values():
-            arguments.append((shot, undistorted_shots[shot.id], data, udata))
+    if graph:
+        #udata.save_undistorted_tracks_graph(ugraph)
+        data.save_undistorted_tracks_graph(graph)
 
-        processes = data.config['processes']
-        parallel_map(undistort_image_and_masks, arguments, processes)
+    arguments = []
+    for shot in reconstruction.shots.values():
+        arguments.append((shot, undistorted_shots[shot.id], data, udata))
+
+    processes = data.config['processes']
+    parallel_map(undistort_image_and_masks, arguments, processes)
 
 
 def undistort_image_and_masks(arguments):
     shot, undistorted_shots, data, udata = arguments
     log.setup()
     logger.debug('Undistorting image {}'.format(shot.id))
-
-    # Undistort image
-    image = data.load_image(shot.id, unchanged=True, anydepth=True)
+    image=data.image_list[shot.id]
+    
     if image is not None:
         max_size = data.config['undistorted_image_max_size']
         undistorted = undistort_image(shot, undistorted_shots, image,
                                       cv2.INTER_AREA, max_size)
         for k, v in undistorted.items():
-            udata.save_undistorted_image(k, v)
-
-    # Undistort mask
-    mask = data.load_mask(shot.id)
-    if mask is not None:
-        undistorted = undistort_image(shot, undistorted_shots, mask,
-                                      cv2.INTER_NEAREST, 1e9)
-        for k, v in undistorted.items():
-            udata.save_undistorted_mask(k, v)
-
-    # Undistort segmentation
-    segmentation = data.load_segmentation(shot.id)
-    if segmentation is not None:
-        undistorted = undistort_image(shot, undistorted_shots, segmentation,
-                                      cv2.INTER_NEAREST, 1e9)
-        for k, v in undistorted.items():
-            udata.save_undistorted_segmentation(k, v)
-
-    # Undistort detections
-    detection = data.load_detection(shot.id)
-    if detection is not None:
-        undistorted = undistort_image(shot, undistorted_shots, detection,
-                                      cv2.INTER_NEAREST, 1e9)
-        for k, v in undistorted.items():
-            udata.save_undistorted_detection(k, v)
-
+            #udata.save_undistorted_image(k, v)
+            data.udata_image.update({k:v}) # 색깔있음 
 
 def undistort_image(shot, undistorted_shots, original, interpolation,
                     max_size):
@@ -164,6 +114,7 @@ def undistort_image(shot, undistorted_shots, original, interpolation,
         uf = undistort_function[projection_type]
         undistorted = uf(original, shot.camera, new_camera, interpolation)
         return {shot.id: scale_image(undistorted, max_size)}
+
     elif projection_type in ['equirectangular', 'spherical']:
         subshot_width = undistorted_shots[0].camera.width
         width = 4 * subshot_width

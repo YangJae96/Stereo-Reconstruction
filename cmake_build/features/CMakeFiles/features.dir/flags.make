@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -O3 -DNDEBUG -fPIC -fvisibility=hidden   -std=gnu++11
 
 CXX_DEFINES = -DVL_DISABLE_AVX
 
-CXX_INCLUDES = -I/home/yjw/KMU_SLAM/opensfm/src -I/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib -I/usr/include/eigen3 -I/usr/include/python3.7m -I/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I"/home/yjw/Stereo Reconstruction/opensfm/src" -I"/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib" -I/usr/include/eigen3 -I/usr/include/python3.7m -I"/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include" -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

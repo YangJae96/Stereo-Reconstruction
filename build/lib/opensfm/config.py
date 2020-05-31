@@ -145,7 +145,7 @@ depthmap_num_neighbors: 10            # Number of neighboring views
 depthmap_num_matching_views: 6        # Number of neighboring views used for each depthmaps
 depthmap_min_depth: 0                 # Minimum depth in meters.  Set to 0 to auto-infer from the reconstruction.
 depthmap_max_depth: 0                 # Maximum depth in meters.  Set to 0 to auto-infer from the reconstruction.
-depthmap_patchmatch_iterations: 3     # Number of PatchMatch iterations to run
+depthmap_patchmatch_iterations: 1    # Number of PatchMatch iterations to run
 depthmap_patch_size: 7                # Size of the correlation patch
 depthmap_min_patch_sd: 1.0            # Patches with lower standard deviation are ignored
 depthmap_min_correlation_score: 0.1   # Minimum correlation score to accept a depth value

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yjw/KMU_SLAM/opensfm/src
+CMAKE_SOURCE_DIR = "/home/yjw/Stereo Reconstruction/opensfm/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yjw/KMU_SLAM/cmake_build
+CMAKE_BINARY_DIR = "/home/yjw/Stereo Reconstruction/cmake_build"
 
 # Include any dependencies generated for this target.
 include geometry/CMakeFiles/geometry.dir/depend.make
@@ -58,43 +58,43 @@ include geometry/CMakeFiles/geometry.dir/progress.make
 include geometry/CMakeFiles/geometry.dir/flags.make
 
 geometry/CMakeFiles/geometry.dir/src/essential.cc.o: geometry/CMakeFiles/geometry.dir/flags.make
-geometry/CMakeFiles/geometry.dir/src/essential.cc.o: /home/yjw/KMU_SLAM/opensfm/src/geometry/src/essential.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object geometry/CMakeFiles/geometry.dir/src/essential.cc.o"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry.dir/src/essential.cc.o -c /home/yjw/KMU_SLAM/opensfm/src/geometry/src/essential.cc
+geometry/CMakeFiles/geometry.dir/src/essential.cc.o: /home/yjw/Stereo\ Reconstruction/opensfm/src/geometry/src/essential.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object geometry/CMakeFiles/geometry.dir/src/essential.cc.o"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry.dir/src/essential.cc.o -c "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/essential.cc"
 
 geometry/CMakeFiles/geometry.dir/src/essential.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry.dir/src/essential.cc.i"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yjw/KMU_SLAM/opensfm/src/geometry/src/essential.cc > CMakeFiles/geometry.dir/src/essential.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/essential.cc" > CMakeFiles/geometry.dir/src/essential.cc.i
 
 geometry/CMakeFiles/geometry.dir/src/essential.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry.dir/src/essential.cc.s"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yjw/KMU_SLAM/opensfm/src/geometry/src/essential.cc -o CMakeFiles/geometry.dir/src/essential.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/essential.cc" -o CMakeFiles/geometry.dir/src/essential.cc.s
 
 geometry/CMakeFiles/geometry.dir/src/triangulation.cc.o: geometry/CMakeFiles/geometry.dir/flags.make
-geometry/CMakeFiles/geometry.dir/src/triangulation.cc.o: /home/yjw/KMU_SLAM/opensfm/src/geometry/src/triangulation.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object geometry/CMakeFiles/geometry.dir/src/triangulation.cc.o"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry.dir/src/triangulation.cc.o -c /home/yjw/KMU_SLAM/opensfm/src/geometry/src/triangulation.cc
+geometry/CMakeFiles/geometry.dir/src/triangulation.cc.o: /home/yjw/Stereo\ Reconstruction/opensfm/src/geometry/src/triangulation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object geometry/CMakeFiles/geometry.dir/src/triangulation.cc.o"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry.dir/src/triangulation.cc.o -c "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/triangulation.cc"
 
 geometry/CMakeFiles/geometry.dir/src/triangulation.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry.dir/src/triangulation.cc.i"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yjw/KMU_SLAM/opensfm/src/geometry/src/triangulation.cc > CMakeFiles/geometry.dir/src/triangulation.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/triangulation.cc" > CMakeFiles/geometry.dir/src/triangulation.cc.i
 
 geometry/CMakeFiles/geometry.dir/src/triangulation.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry.dir/src/triangulation.cc.s"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yjw/KMU_SLAM/opensfm/src/geometry/src/triangulation.cc -o CMakeFiles/geometry.dir/src/triangulation.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/triangulation.cc" -o CMakeFiles/geometry.dir/src/triangulation.cc.s
 
 geometry/CMakeFiles/geometry.dir/src/pose.cc.o: geometry/CMakeFiles/geometry.dir/flags.make
-geometry/CMakeFiles/geometry.dir/src/pose.cc.o: /home/yjw/KMU_SLAM/opensfm/src/geometry/src/pose.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object geometry/CMakeFiles/geometry.dir/src/pose.cc.o"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry.dir/src/pose.cc.o -c /home/yjw/KMU_SLAM/opensfm/src/geometry/src/pose.cc
+geometry/CMakeFiles/geometry.dir/src/pose.cc.o: /home/yjw/Stereo\ Reconstruction/opensfm/src/geometry/src/pose.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object geometry/CMakeFiles/geometry.dir/src/pose.cc.o"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry.dir/src/pose.cc.o -c "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/pose.cc"
 
 geometry/CMakeFiles/geometry.dir/src/pose.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry.dir/src/pose.cc.i"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yjw/KMU_SLAM/opensfm/src/geometry/src/pose.cc > CMakeFiles/geometry.dir/src/pose.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/pose.cc" > CMakeFiles/geometry.dir/src/pose.cc.i
 
 geometry/CMakeFiles/geometry.dir/src/pose.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry.dir/src/pose.cc.s"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yjw/KMU_SLAM/opensfm/src/geometry/src/pose.cc -o CMakeFiles/geometry.dir/src/pose.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yjw/Stereo Reconstruction/opensfm/src/geometry/src/pose.cc" -o CMakeFiles/geometry.dir/src/pose.cc.s
 
 # Object files for target geometry
 geometry_OBJECTS = \
@@ -110,9 +110,9 @@ geometry/libgeometry.a: geometry/CMakeFiles/geometry.dir/src/triangulation.cc.o
 geometry/libgeometry.a: geometry/CMakeFiles/geometry.dir/src/pose.cc.o
 geometry/libgeometry.a: geometry/CMakeFiles/geometry.dir/build.make
 geometry/libgeometry.a: geometry/CMakeFiles/geometry.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yjw/KMU_SLAM/cmake_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgeometry.a"
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && $(CMAKE_COMMAND) -P CMakeFiles/geometry.dir/cmake_clean_target.cmake
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/geometry.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgeometry.a"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && $(CMAKE_COMMAND) -P CMakeFiles/geometry.dir/cmake_clean_target.cmake
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/geometry.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 geometry/CMakeFiles/geometry.dir/build: geometry/libgeometry.a
@@ -120,10 +120,10 @@ geometry/CMakeFiles/geometry.dir/build: geometry/libgeometry.a
 .PHONY : geometry/CMakeFiles/geometry.dir/build
 
 geometry/CMakeFiles/geometry.dir/clean:
-	cd /home/yjw/KMU_SLAM/cmake_build/geometry && $(CMAKE_COMMAND) -P CMakeFiles/geometry.dir/cmake_clean.cmake
+	cd "/home/yjw/Stereo Reconstruction/cmake_build/geometry" && $(CMAKE_COMMAND) -P CMakeFiles/geometry.dir/cmake_clean.cmake
 .PHONY : geometry/CMakeFiles/geometry.dir/clean
 
 geometry/CMakeFiles/geometry.dir/depend:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yjw/KMU_SLAM/opensfm/src /home/yjw/KMU_SLAM/opensfm/src/geometry /home/yjw/KMU_SLAM/cmake_build /home/yjw/KMU_SLAM/cmake_build/geometry /home/yjw/KMU_SLAM/cmake_build/geometry/CMakeFiles/geometry.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/yjw/Stereo Reconstruction/opensfm/src" "/home/yjw/Stereo Reconstruction/opensfm/src/geometry" "/home/yjw/Stereo Reconstruction/cmake_build" "/home/yjw/Stereo Reconstruction/cmake_build/geometry" "/home/yjw/Stereo Reconstruction/cmake_build/geometry/CMakeFiles/geometry.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : geometry/CMakeFiles/geometry.dir/depend
 

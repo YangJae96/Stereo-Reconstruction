@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -O3 -DNDEBUG -fPIC -fvisibility=hidden   -flto -fno-fat-lt
 
 CXX_DEFINES = -DVL_DISABLE_AVX -Dpygeometry_EXPORTS
 
-CXX_INCLUDES = -I/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include -I/usr/include/python3.7m -I/home/yjw/KMU_SLAM/opensfm/src -I/usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I"/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include" -I/usr/include/python3.7m -I"/home/yjw/Stereo Reconstruction/opensfm/src" -I/usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

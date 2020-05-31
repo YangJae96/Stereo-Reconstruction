@@ -659,7 +659,7 @@ def json_loads(text):
     return json.loads(text)
 
 
-def imread(filename, grayscale=False, unchanged=False, anydepth=False):
+def imread(image, grayscale=False, unchanged=False, anydepth=False):
     """Load image as an array ignoring EXIF orientation."""
     if context.OPENCV3:
         if grayscale:
@@ -689,14 +689,21 @@ def imread(filename, grayscale=False, unchanged=False, anydepth=False):
 
         if anydepth:
             flags |= cv2.CV_LOAD_IMAGE_ANYDEPTH
+    #print(image)
 
-    image = cv2.imread(filename, flags)
+    #image = cv2.imread(filename, flags)
 
     if image is None:
         raise IOError("Unable to load image {}".format(filename))
 
+    print(type(image))
+    
     if len(image.shape) == 3:
         image[:, :, :3] = image[:, :, [2, 1, 0]]  # Turn BGR to RGB (or BGRA to RGBA)
+    # print("****hello******")
+    # cv2.imshow('test',image)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
     return image
 
 
@@ -936,9 +943,9 @@ def ply_header(count_vertices, with_normals=False):
             "property float nx",
             "property float ny",
             "property float nz",
-            "property uchar diffuse_red",
-            "property uchar diffuse_green",
-            "property uchar diffuse_blue",
+            "property uchar red",
+            "property uchar green",
+            "property uchar blue",
             "end_header",
         ]
     else:
@@ -949,9 +956,9 @@ def ply_header(count_vertices, with_normals=False):
             "property float x",
             "property float y",
             "property float z",
-            "property uchar diffuse_red",
-            "property uchar diffuse_green",
-            "property uchar diffuse_blue",
+            "property uchar red",
+            "property uchar green",
+            "property uchar blue",
             "end_header",
         ]
     return header
@@ -990,17 +997,17 @@ def ply_to_points(filename):
 def reconstruction_to_ply(reconstruction, no_cameras=False, no_points=False):
     """Export reconstruction points as a PLY string."""
     vertices = []
-
+    
     if not no_points:
-        for point in reconstruction.points.values():
+        for point in reconstruction['points'].values():
             p, c = point.coordinates, point.color
             s = "{} {} {} {} {} {}".format(
                 p[0], p[1], p[2], int(c[0]), int(c[1]), int(c[2]))
             vertices.append(s)
 
     if not no_cameras:
-        for shot in reconstruction.shots.values():
-            o = shot.pose.get_origin()
+        for shot in reconstruction['shots'].values():
+            o = shot.pose.get_origin()  
             R = shot.pose.get_rotation_matrix()
             for axis in range(3):
                 c = 255 * np.eye(3)[axis]

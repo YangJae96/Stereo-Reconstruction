@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -O3 -DNDEBUG -fPIC -fvisibility=hidden   -std=gnu++11
 
 CXX_DEFINES = -DCERES_GFLAGS_NAMESPACE=google -DGFLAGS_IS_A_DLL=0 -DVL_DISABLE_AVX
 
-CXX_INCLUDES = -I/home/yjw/KMU_SLAM/opensfm/src/third_party/gtest 
+CXX_INCLUDES = -I"/home/yjw/Stereo Reconstruction/opensfm/src/third_party/gtest" 
 

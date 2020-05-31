@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/yjw/KMU_SLAM/opensfm/src/features/akaze_bind.h
+/home/yjw/Stereo Reconstruction/opensfm/src/features/akaze_bind.h
 foundation/types.h
 -
 third_party/akaze/lib/AKAZE.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/features/hahog.h
+/home/yjw/Stereo Reconstruction/opensfm/src/features/hahog.h
 foundation/types.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/features/src/akaze_bind.cc
+/home/yjw/Stereo Reconstruction/opensfm/src/features/src/akaze_bind.cc
 foundation/types.h
 -
 opencv2/imgproc/imgproc.hpp
@@ -26,7 +26,7 @@ third_party/akaze/lib/AKAZE.h
 features/akaze_bind.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/features/src/hahog.cc
+/home/yjw/Stereo Reconstruction/opensfm/src/features/src/hahog.cc
 foundation/types.h
 -
 features/hahog.h
@@ -42,7 +42,7 @@ third_party/vlfeat/vl/sift.h
 time.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/features/src/matching.cc
+/home/yjw/Stereo Reconstruction/opensfm/src/features/src/matching.cc
 map
 -
 vector
@@ -54,7 +54,7 @@ pybind11/pybind11.h
 foundation/types.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/foundation/types.h
+/home/yjw/Stereo Reconstruction/opensfm/src/foundation/types.h
 pybind11/pybind11.h
 -
 pybind11/numpy.h
@@ -64,21 +64,21 @@ vector
 iostream
 -
 opencv2/core/core.hpp
-/home/yjw/KMU_SLAM/opensfm/src/foundation/opencv2/core/core.hpp
+/home/yjw/Stereo Reconstruction/opensfm/src/foundation/opencv2/core/core.hpp
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/AKAZE.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZE.h
 AKAZEConfig.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/AKAZEConfig.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZEConfig.h
 fed.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/fed.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/fed.h
 utils.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/utils.h
 nldiffusion_functions.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
 opencv2/features2d/features2d.hpp
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/AKAZEConfig.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZEConfig.h
 opencv2/opencv.hpp
 -
 omp.h
@@ -94,15 +94,15 @@ bitset
 iomanip
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/fed.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/fed.h
 vector
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/nldiffusion_functions.h
 AKAZEConfig.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/akaze/lib/utils.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/utils.h
 opencv2/features2d/features2d.hpp
 -
 vector
@@ -112,23 +112,23 @@ iostream
 iomanip
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/attr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/attr.h
 cast.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/cast.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/cast.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/buffer_info.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/buffer_info.h
 detail/common.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/cast.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/cast.h
 pytypes.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
 detail/typeid.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/typeid.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/typeid.h
 detail/descr.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/descr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/descr.h
 detail/internals.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/internals.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/internals.h
 array
 -
 limits
@@ -138,17 +138,17 @@ tuple
 string_view
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/complex.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/complex.h
 pybind11.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
 complex
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
 ../attr.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/attr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/attr.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 Python.h
 -
 frameobject.h
@@ -178,19 +178,19 @@ typeindex
 type_traits
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/descr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/descr.h
 common.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/init.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/init.h
 class.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/internals.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/internals.h
 ../pytypes.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/typeid.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/typeid.h
 cstdio
 -
 cstdlib
@@ -198,11 +198,11 @@ cstdlib
 cxxabi.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/numpy.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/numpy.h
 pybind11.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
 complex.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/complex.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/complex.h
 numeric
 -
 algorithm
@@ -226,45 +226,45 @@ utility
 typeindex
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/options.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/options.h
 detail/common.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pybind11.h
 attr.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/attr.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/attr.h
 options.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/options.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/options.h
 detail/class.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/class.h
 detail/init.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/init.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/init.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/pytypes.h
 detail/common.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/detail/common.h
 buffer_info.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/pybind11/include/pybind11/buffer_info.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/pybind11/include/pybind11/buffer_info.h
 utility
 -
 type_traits
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/covdet.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/covdet.h
 generic.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 stringop.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/stringop.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.h
 scalespace.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/scalespace.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.h
 stdio.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 host.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 random.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 stdlib.h
 -
 stddef.h
@@ -274,41 +274,41 @@ time.h
 assert.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 generic.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 generic.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 math.h
 -
 float.h
 -
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 host.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/scalespace.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.h
 generic.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 imopv.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 mathop.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/sift.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/sift.h
 stdio.h
 -
 generic.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/stringop.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.h
 generic.h
-/home/yjw/KMU_SLAM/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
 /usr/include/python3.7m/Python.h
 patchlevel.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/yjw/KMU_SLAM/opensfm/src/dense
+# Install script for directory: /home/yjw/Stereo Reconstruction/opensfm/src/dense
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

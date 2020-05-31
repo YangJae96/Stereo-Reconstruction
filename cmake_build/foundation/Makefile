@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yjw/KMU_SLAM/opensfm/src
+CMAKE_SOURCE_DIR = "/home/yjw/Stereo Reconstruction/opensfm/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yjw/KMU_SLAM/cmake_build
+CMAKE_BINARY_DIR = "/home/yjw/Stereo Reconstruction/cmake_build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles /home/yjw/KMU_SLAM/cmake_build/foundation/CMakeFiles/progress.marks
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 foundation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjw/KMU_SLAM/cmake_build/CMakeFiles 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" "/home/yjw/Stereo Reconstruction/cmake_build/foundation/CMakeFiles/progress.marks"
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 foundation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/yjw/Stereo Reconstruction/cmake_build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 foundation/clean
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 foundation/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 foundation/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 foundation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 foundation/preinstall
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 foundation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 foundation/CMakeFiles/foundation.dir/rule:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f CMakeFiles/Makefile2 foundation/CMakeFiles/foundation.dir/rule
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f CMakeFiles/Makefile2 foundation/CMakeFiles/foundation.dir/rule
 .PHONY : foundation/CMakeFiles/foundation.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ foundation: foundation/CMakeFiles/foundation.dir/rule
 
 # fast build rule for target.
 foundation/fast:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/build
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/build
 .PHONY : foundation/fast
 
 src/logger.o: src/logger.cc.o
@@ -142,7 +142,7 @@ src/logger.o: src/logger.cc.o
 
 # target to build an object file
 src/logger.cc.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/logger.cc.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/logger.cc.o
 .PHONY : src/logger.cc.o
 
 src/logger.i: src/logger.cc.i
@@ -151,7 +151,7 @@ src/logger.i: src/logger.cc.i
 
 # target to preprocess a source file
 src/logger.cc.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/logger.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/logger.cc.i
 .PHONY : src/logger.cc.i
 
 src/logger.s: src/logger.cc.s
@@ -160,7 +160,7 @@ src/logger.s: src/logger.cc.s
 
 # target to generate assembly for a file
 src/logger.cc.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/logger.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/logger.cc.s
 .PHONY : src/logger.cc.s
 
 src/types.o: src/types.cc.o
@@ -169,7 +169,7 @@ src/types.o: src/types.cc.o
 
 # target to build an object file
 src/types.cc.o:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/types.cc.o
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/types.cc.o
 .PHONY : src/types.cc.o
 
 src/types.i: src/types.cc.i
@@ -178,7 +178,7 @@ src/types.i: src/types.cc.i
 
 # target to preprocess a source file
 src/types.cc.i:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/types.cc.i
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/types.cc.i
 .PHONY : src/types.cc.i
 
 src/types.s: src/types.cc.s
@@ -187,7 +187,7 @@ src/types.s: src/types.cc.s
 
 # target to generate assembly for a file
 src/types.cc.s:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/types.cc.s
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(MAKE) -f foundation/CMakeFiles/foundation.dir/build.make foundation/CMakeFiles/foundation.dir/src/types.cc.s
 .PHONY : src/types.cc.s
 
 # Help Target
@@ -217,6 +217,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yjw/KMU_SLAM/cmake_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/yjw/Stereo Reconstruction/cmake_build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
