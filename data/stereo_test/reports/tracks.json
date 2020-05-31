@@ -1,22 +1,22 @@
 {
     "wall_times": {
-        "load_features": 0.00020436500199139118,
-        "load_matches": 1.195799995912239e-05,
-        "compute_tracks": 0.05859033299930161
+        "load_features": 0.00019395200069993734,
+        "load_matches": 8.816998160909861e-06,
+        "compute_tracks": 0.06426110500615323
     },
-    "wall_time": 0.05880665600125212,
+    "wall_time": 0.06446387400501408,
     "num_images": 2,
-    "num_tracks": 1515,
+    "num_tracks": 1514,
     "view_graph": [
         [
             "img1.png",
             "img0.png",
-            1515
+            1514
         ],
         [
             "img0.png",
             "img1.png",
-            1515
+            1514
         ]
     ]
 }
