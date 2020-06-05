@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/AKAZE.cpp" "/home/yjw/Stereo Reconstruction/cmake_build/third_party/akaze/CMakeFiles/akaze.dir/lib/AKAZE.cpp.o"
-  "/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/fed.cpp" "/home/yjw/Stereo Reconstruction/cmake_build/third_party/akaze/CMakeFiles/akaze.dir/lib/fed.cpp.o"
-  "/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/nldiffusion_functions.cpp" "/home/yjw/Stereo Reconstruction/cmake_build/third_party/akaze/CMakeFiles/akaze.dir/lib/nldiffusion_functions.cpp.o"
-  "/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib/utils.cpp" "/home/yjw/Stereo Reconstruction/cmake_build/third_party/akaze/CMakeFiles/akaze.dir/lib/utils.cpp.o"
+  "/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/akaze/lib/AKAZE.cpp" "/home/yjw/Stereo-Reconstruction/cmake_build/third_party/akaze/CMakeFiles/akaze.dir/lib/AKAZE.cpp.o"
+  "/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/akaze/lib/fed.cpp" "/home/yjw/Stereo-Reconstruction/cmake_build/third_party/akaze/CMakeFiles/akaze.dir/lib/fed.cpp.o"
+  "/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/akaze/lib/nldiffusion_functions.cpp" "/home/yjw/Stereo-Reconstruction/cmake_build/third_party/akaze/CMakeFiles/akaze.dir/lib/nldiffusion_functions.cpp.o"
+  "/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/akaze/lib/utils.cpp" "/home/yjw/Stereo-Reconstruction/cmake_build/third_party/akaze/CMakeFiles/akaze.dir/lib/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,9 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/yjw/Stereo Reconstruction/opensfm/src/third_party/akaze/lib"
-  "/usr/local/include"
-  "/usr/local/include/opencv"
+  "/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/akaze/lib"
+  "/usr/local/include/opencv4"
   )
 
 # Targets to which this target links.

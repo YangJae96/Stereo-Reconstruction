@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/aib.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/aib.c
 aib.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/aib.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/aib.h
 stdio.h
 -
 stdlib.h
@@ -18,65 +18,65 @@ float.h
 math.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/aib.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/aib.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/array.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/array.c
 array.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/array.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/array.h
 string.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/array.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/array.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/covdet.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/covdet.c
 covdet.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/covdet.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/covdet.h
 string.h
 -
 time.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/covdet.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/covdet.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 stringop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.h
 scalespace.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.h
 stdio.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/dsift.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/dsift.c
 dsift.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/dsift.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/dsift.h
 pgm.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/pgm.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/pgm.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 imopv.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 math.h
 -
 string.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/dsift.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/dsift.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.c
 fisher.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.h
 gmm.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 stdio.h
 -
 stdlib.h
@@ -84,21 +84,21 @@ stdlib.h
 string.h
 -
 fisher.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.c
 fisher.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.c
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/fisher.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.c
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 assert.h
 -
 stdlib.h
@@ -118,11 +118,11 @@ unistd.h
 omp.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 host.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 random.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 stdlib.h
 -
 stddef.h
@@ -132,7 +132,7 @@ time.h
 assert.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/getopt_long.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/getopt_long.c
 stdlib.h
 -
 string.h
@@ -140,17 +140,17 @@ string.h
 stdio.h
 -
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 getopt_long.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/getopt_long.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/getopt_long.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/getopt_long.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/getopt_long.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.c
 gmm.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.h
 stdio.h
 -
 stdlib.h
@@ -160,23 +160,23 @@ string.h
 omp.h
 -
 mathop_sse2.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
 mathop_avx.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
 shuffle-def.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/shuffle-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/shuffle-def.h
 gmm.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.c
 gmm.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.c
 fenv.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/gmm.h
 kmeans.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/heap-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/heap-def.h
 vl/heap-def.h
 -
 vl/heap-def.h
@@ -184,11 +184,11 @@ vl/heap-def.h
 vl/heap-def.h
 -
 host.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 assert.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/hikmeans.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/hikmeans.c
 stdio.h
 -
 stdlib.h
@@ -198,65 +198,65 @@ string.h
 math.h
 -
 hikmeans.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/hikmeans.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/hikmeans.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/hikmeans.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/hikmeans.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 ikmeans.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/hog.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/hog.c
 hog.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/hog.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/hog.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 string.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/hog.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/hog.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.c
 homkermap.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 math.h
 -
 homkermap.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.c
 homkermap.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.c
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 math.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/host.c
 vl/generic.h
 -
 vl/generic.h
 -
 host.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 stdio.h
 -
 intrin.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans.c
 ikmeans.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans.h
 stdlib.h
 -
 stdio.h
@@ -264,239 +264,239 @@ stdio.h
 string.h
 -
 assert.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/assert.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/assert.h
 ikmeans_init.tc
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_init.tc
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_init.tc
 ikmeans_lloyd.tc
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_lloyd.tc
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_lloyd.tc
 ikmeans_elkan.tc
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_elkan.tc
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_elkan.tc
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 random.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_elkan.tc
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_elkan.tc
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_init.tc
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_init.tc
 random.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_lloyd.tc
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/ikmeans_lloyd.tc
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
 imopv.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 imopv_sse2.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 imopv.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
 imopv.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
 imopv.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
 imopv.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.c
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.c
 emmintrin.h
 -
 imopv.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 imopv_sse2.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.h
 imopv_sse2.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.c
 imopv_sse2.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.c
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv_sse2.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kdtree.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kdtree.c
 kdtree.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kdtree.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kdtree.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 random.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 stdlib.h
 -
 omp.h
 -
 heap-def.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/heap-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/heap-def.h
 heap-def.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/heap-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/heap-def.h
 heap-def.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/heap-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/heap-def.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kdtree.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kdtree.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.c
 vl/kmeans.h
 -
 kmeans.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 string.h
 -
 omp.h
 -
 shuffle-def.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/shuffle-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/shuffle-def.h
 qsort-def.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/qsort-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/qsort-def.h
 kmeans.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.c
 kmeans.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.c
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kmeans.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 random.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 kdtree.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/kdtree.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/kdtree.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/lbp.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/lbp.c
 lbp.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/lbp.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/lbp.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 string.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/string.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/string.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/lbp.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/lbp.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/liop.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/liop.c
 vl/liop.h
 -
 liop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/liop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/liop.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 imopv.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 string.h
 -
 qsort-def.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/qsort-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/qsort-def.h
 qsort-def.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/qsort-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/qsort-def.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/liop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/liop.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.c
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 mathop_sse2.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
 mathop_avx.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
 math.h
 -
 mathop.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.c
 mathop.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.c
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 math.h
 -
 float.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.c
 mathop_avx.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
 mathop_avx.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.c
 mathop_avx.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.c
 immintrin.h
 -
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
 mathop_avx.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
 mathop_avx.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_avx.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.c
 mathop_sse2.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
 mathop_sse2.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.c
 mathop_sse2.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.c
 emmintrin.h
 -
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
 mathop_sse2.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
 mathop_sse2.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop_sse2.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mser.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mser.c
 mser.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mser.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mser.h
 stdlib.h
 -
 string.h
@@ -504,13 +504,13 @@ string.h
 assert.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mser.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mser.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/pgm.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/pgm.c
 pgm.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/pgm.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/pgm.h
 stdio.h
 -
 stdlib.h
@@ -518,27 +518,27 @@ stdlib.h
 string.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/pgm.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/pgm.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 stdio.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/qsort-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/qsort-def.h
 vl/qsort-def.h
 -
 host.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 assert.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/quickshift.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/quickshift.c
 quickshift.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/quickshift.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/quickshift.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 string.h
 -
 math.h
@@ -546,43 +546,43 @@ math.h
 stdio.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/quickshift.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/quickshift.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.c
 random.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 stdio.h
 -
 string.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 host.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/rodrigues.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/rodrigues.c
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 rodrigues.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/rodrigues.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/rodrigues.h
 math.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/rodrigues.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/rodrigues.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.c
 scalespace.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 assert.h
 -
 stdlib.h
@@ -594,29 +594,29 @@ math.h
 stdio.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/scalespace.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 imopv.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/shuffle-def.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/shuffle-def.h
 host.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/host.h
 random.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/random.h
 assert.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/sift.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/sift.c
 sift.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/sift.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/sift.h
 imopv.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/imopv.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 assert.h
 -
 stdlib.h
@@ -628,81 +628,81 @@ math.h
 stdio.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/sift.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/sift.h
 stdio.h
 -
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/slic.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/slic.c
 slic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/slic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/slic.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 math.h
 -
 string.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/slic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/slic.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.c
 stringop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.h
 string.h
 -
 ctype.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/stringop.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svm.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svm.c
 stdio.h
 -
 vl/svm.h
 -
 svm.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svm.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svm.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 string.h
 -
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svm.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svm.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 svmdataset.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.c
 svmdataset.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.h
 string.h
 -
 math.h
 -
 svmdataset.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.c
 svmdataset.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.c
 float.th
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/float.th
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/svmdataset.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 homkermap.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/homkermap.h
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.c
 vlad.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.h
 mathop.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/mathop.h
 stdio.h
 -
 stdlib.h
@@ -712,11 +712,11 @@ string.h
 omp.h
 -
 vlad.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.c
 vlad.c
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.c
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.c
 
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/vlad.h
 generic.h
-/home/yjw/Stereo Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
+/home/yjw/Stereo-Reconstruction/opensfm/src/third_party/vlfeat/vl/generic.h
 

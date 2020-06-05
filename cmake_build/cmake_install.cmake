@@ -1,4 +1,4 @@
-# Install script for directory: /home/yjw/Stereo Reconstruction/opensfm/src
+# Install script for directory: /home/yjw/Stereo-Reconstruction/opensfm/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,22 +32,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yjw/Stereo Reconstruction/cmake_build/third_party/pybind11/cmake_install.cmake")
-  include("/home/yjw/Stereo Reconstruction/cmake_build/third_party/akaze/cmake_install.cmake")
-  include("/home/yjw/Stereo Reconstruction/cmake_build/third_party/vlfeat/cmake_install.cmake")
-  include("/home/yjw/Stereo Reconstruction/cmake_build/foundation/cmake_install.cmake")
-  include("/home/yjw/Stereo Reconstruction/cmake_build/bundle/cmake_install.cmake")
-  include("/home/yjw/Stereo Reconstruction/cmake_build/dense/cmake_install.cmake")
-  include("/home/yjw/Stereo Reconstruction/cmake_build/features/cmake_install.cmake")
-  include("/home/yjw/Stereo Reconstruction/cmake_build/geometry/cmake_install.cmake")
-  include("/home/yjw/Stereo Reconstruction/cmake_build/robust/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/third_party/pybind11/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/third_party/akaze/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/third_party/vlfeat/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/foundation/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/bundle/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/dense/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/features/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/geometry/cmake_install.cmake")
+  include("/home/yjw/Stereo-Reconstruction/cmake_build/robust/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yjw/Stereo Reconstruction/cmake_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yjw/Stereo-Reconstruction/cmake_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

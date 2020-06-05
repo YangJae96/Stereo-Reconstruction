@@ -60,12 +60,29 @@ def compute_depthmaps(data, udata, graph, reconstruction):
     # exit()
 
     arguments = []
-    for shot in reconstruction.shots.values():
-        if len(neighbors[shot.id]) <= 1:
-            continue
-        mind, maxd = compute_depth_range(graph, reconstruction, shot, config)
-        arguments.append((data, udata, neighbors[shot.id], mind, maxd, shot))
+            
+    mind=0
+    maxd=10
+    arguments.append((data, udata, neighbors[shot.id], mind, maxd, shot))
     parallel_map_thread(compute_depthmap_catched, arguments, processes)
+    # print(arguments)
+    # print(len(arguments))
+   
+    # compute_depthmap(arguments)
+
+    # for shot in reconstruction.shots.values():
+    #     if len(neighbors[shot.id]) <= 1:
+    #         continue
+    #     print("shot.id=",shot.id)
+		    	
+    #     mind, maxd = compute_depth_range(graph, reconstruction, shot, config)
+    #     arguments.append((data, udata, neighbors[shot.id], mind, maxd, shot))
+
+    # print(arguments) 
+    # print(len(arguments))   
+    
+    # parallel_map_thread(compute_depthmap_catched, arguments, processes)
+
     #parallel_map(compute_depthmap_catched, arguments, processes)
     
     # data.save_raw_depthmap(raw_depthmap)
@@ -75,7 +92,7 @@ def compute_depthmaps(data, udata, graph, reconstruction):
     pcd = o3d.io.read_point_cloud(file_path)
     #pcd.transform([[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, 1]])
     o3d.visualization.draw_geometries([pcd])
-   
+    exit()
 
    
     arguments = []
@@ -132,40 +149,35 @@ def prune_depthmap_catched(arguments):
 def compute_depthmap(arguments):
     """Compute depthmap for a single shot."""
     log.setup()
-
+    print()
+    print(len(arguments))
     data, udata, neighbors, min_depth, max_depth, shot = arguments
     method = udata.config['depthmap_method']
 
-    # if udata.raw_depthmap_exists(shot.id):
-    #     logger.info("Using precomputed raw depthmap {}".format(shot.id))
-    #     return
     logger.info("Computing depthmap for image {0} with {1}".format(shot.id, method))
 
-    # min_depth=5
-    # max_depth=20
     print("min_depth == ",min_depth)
     print("max_depth == ",max_depth)
     
-    start=time.time()
-    
-    de = pydense.DepthmapEstimator()
-    de.set_depth_range(min_depth, max_depth, 100)# 24,96
-    de.set_patchmatch_iterations(udata.config['depthmap_patchmatch_iterations']) # 3
-    de.set_patch_size(udata.config['depthmap_patch_size'])
-    de.set_min_patch_sd(udata.config['depthmap_min_patch_sd'])
-    add_views_to_depth_estimator(data,udata, neighbors, de)
 
-    if (method == 'BRUTE_FORCE'):
-        depth, plane, score, nghbr = de.compute_brute_force()
-    elif (method == 'PATCH_MATCH'):
-        depth, plane, score, nghbr = de.compute_patch_match()
-    elif (method == 'PATCH_MATCH_SAMPLE'):
-        #depth, plane, score, nghbr = de.compute_patch_match_sample()
-        pass 
-    else:
-        raise ValueError(
-            'Unknown depthmap method type '
-            '(must be BRUTE_FORCE, PATCH_MATCH or PATCH_MATCH_SAMPLE)')
+    # de = pydense.DepthmapEstimator()
+    # de.set_depth_range(min_depth, max_depth, 100)# 24,96
+    # de.set_patchmatch_iterations(udata.config['depthmap_patchmatch_iterations']) # 3
+    # de.set_patch_size(udata.config['depthmap_patch_size'])
+    # de.set_min_patch_sd(udata.config['depthmap_min_patch_sd'])
+    # add_views_to_depth_estimator(data,udata, neighbors, de)
+
+    # if (method == 'BRUTE_FORCE'):
+    #     depth, plane, score, nghbr = de.compute_brute_force()
+    # elif (method == 'PATCH_MATCH'):
+    #     depth, plane, score, nghbr = de.compute_patch_match()
+    # elif (method == 'PATCH_MATCH_SAMPLE'):
+    #     #depth, plane, score, nghbr = de.compute_patch_match_sample()
+    #     pass 
+    # else:
+    #     raise ValueError(
+    #         'Unknown depthmap method type '
+    #         '(must be BRUTE_FORCE, PATCH_MATCH or PATCH_MATCH_SAMPLE)')
     plane=np.zeros((480,640,3))
     score=np.zeros((480,640))
     nghbr=np.zeros((480,640))
@@ -190,9 +202,6 @@ def compute_depthmap(arguments):
     # [f sk cx]
     # [0 f cy ]
     # [0 0 1]
-
-    end=time.time() 
-    print("Compute Depthmap Time == {:.0f}s".format((end-start)%60))
 
     # Save and display results
     neighbor_ids = [i.id for i in neighbors[1:]]
@@ -318,11 +327,6 @@ def merge_depthmaps(data, reconstruction):
 
     with io.open_wt(data._depthmap_path() + '/merged.ply') as fp:
         point_cloud_to_ply(points, normals, colors, labels, detections, fp)
-
-
-    # ply= io.reconstruction_to_ply(data.reconstructions_as_json)
-    # with io.open_wt(data._depthmap_path() + '/SLAM.ply') as fout:
-    #         fout.write(ply)
 
 
 def add_views_to_depth_estimator(original_data, udata, neighbors, de):
