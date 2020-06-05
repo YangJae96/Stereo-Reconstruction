@@ -25,7 +25,6 @@ import open3d as o3d
 
 logger = logging.getLogger(__name__)
 
-
 # raw_depthmap={}
 # raw_ply={}
 # cleaned_depthmap={}
@@ -71,13 +70,12 @@ def compute_depthmaps(data, udata, graph, reconstruction):
     # data.save_raw_depthmap(raw_depthmap)
     # data.save_raw_ply(raw_ply)
 
-    file_path='data/stereo_test/undistorted/depthmaps/img0.png.raw.npz.ply'
+    file_path='data/testtoday/undistorted/depthmaps/img0.png.raw.npz.ply'
     pcd = o3d.io.read_point_cloud(file_path)
     #pcd.transform([[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, 1]])
     o3d.visualization.draw_geometries([pcd])
    
 
-   
     arguments = []
     for shot in reconstruction.shots.values():
         if len(neighbors[shot.id]) <= 1:
@@ -160,32 +158,33 @@ def compute_depthmap(arguments):
     elif (method == 'PATCH_MATCH'):
         depth, plane, score, nghbr = de.compute_patch_match()
     elif (method == 'PATCH_MATCH_SAMPLE'):
-        #depth, plane, score, nghbr = de.compute_patch_match_sample()
+        depth, plane, score, nghbr = de.compute_patch_match_sample()
         pass 
     else:
         raise ValueError(
             'Unknown depthmap method type '
             '(must be BRUTE_FORCE, PATCH_MATCH or PATCH_MATCH_SAMPLE)')
-    plane=np.zeros((480,640,3))
-    score=np.zeros((480,640))
-    nghbr=np.zeros((480,640))
-    # good_score = score > udata.config['depthmap_min_correlation_score'] # 0.1 
-    # depth = depth * (depth < max_depth) * good_score
+    # plane=np.zeros((480,640,3))
+    # score=np.zeros((480,640))
+    # nghbr=np.zeros((480,640))
+    good_score = score > udata.config['depthmap_min_correlation_score'] # 0.1 
+    depth = depth * (depth < max_depth) * good_score
     
-    disparity=skimage.io.imread('disparity.png')
-    # baseline=193.001   
-    # f=4152.073
-    # doffs=213.084
-    # depth = baseline * f /(disparity+doffs)
+    disparity=skimage.io.imread('data/testtoday/Test_disparity.png')
+    # # baseline=193.001   
+    # # f=4152.073
+    # # doffs=213.084
+    # # depth = baseline * f /(disparity+doffs)
 
+    
     f=3979.911
     doffs=124.343
     baseline=193.001
     depth = baseline * f /(disparity+doffs)
 
-#     Z depth = baseline*focal/disparity
-# X= u*depth/focal
-# Y = v*depth/focal 
+    # depth = baseline*focal/disparity
+    # X= u*depth/focal
+    # Y = v*depth/focal 
 
     # [f sk cx]
     # [0 f cy ]
@@ -404,6 +403,7 @@ def add_views_to_depth_pruner(data,udata, neighbors, dp):
         image = scale_down_image(color_image, width, height)
         labels = scale_down_image(labels, width, height, cv2.INTER_NEAREST)
         detections = scale_down_image(detections, width, height, cv2.INTER_NEAREST)
+        
         K = shot.camera.get_K_in_pixel_coordinates(width, height)
         R = shot.pose.get_rotation_matrix()
         t = shot.pose.translation
@@ -504,6 +504,9 @@ def depthmap_to_ply(shot, depth, image):
     v = np.vstack((x.ravel(), y.ravel(), np.ones(width * height)))
     camera_coords = depth.reshape((1, -1)) * np.linalg.inv(K).dot(v)
     points = R.T.dot(camera_coords - t.reshape(3, 1))
+    print("K==",K)
+    print("R==",R)
+
 
     vertices = []
     for p, c, d in zip(points.T, image.reshape(-1, 3), depth.reshape(-1, 1)):

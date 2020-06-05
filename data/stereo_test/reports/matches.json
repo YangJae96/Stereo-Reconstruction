@@ -1,18 +1,18 @@
 {
-    "wall_time": 0.6165133989998139,
+    "wall_time": 0.7133145360000128,
     "num_pairs": 3,
     "pairs": [
         [
-            "img0.png",
+            "img1.png",
             "img0.png"
-        ],
-        [
-            "img0.png",
-            "img1.png"
         ],
         [
             "img1.png",
             "img1.png"
+        ],
+        [
+            "img0.png",
+            "img0.png"
         ]
     ],
     "num_pairs_distance": 0,
