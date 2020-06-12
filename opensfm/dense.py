@@ -50,59 +50,12 @@ def compute_depthmaps(data, udata, graph, reconstruction):
     maxd=10
     arguments.append((data, udata, neighbors[shot.id], mind, maxd, shot))
     parallel_map_thread(compute_depthmap_catched, arguments, processes)
-    # print(arguments)
-    # print(len(arguments))
-   
-    # compute_depthmap(arguments)
-
-    # for shot in reconstruction.shots.values():
-    #     if len(neighbors[shot.id]) <= 1:
-    #         continue
-    #     print("shot.id=",shot.id)
-		    	
-    #     mind, maxd = compute_depth_range(graph, reconstruction, shot, config)
-    #     arguments.append((data, udata, neighbors[shot.id], mind, maxd, shot))
-
-    # print(arguments) 
-    # print(len(arguments))   
     
-    # parallel_map_thread(compute_depthmap_catched, arguments, processes)
-
-    #parallel_map(compute_depthmap_catched, arguments, processes)
-    
-    # data.save_raw_depthmap(raw_depthmap)
-    # data.save_raw_ply(raw_ply)
-
     file_path='data/stereo_test/undistorted/depthmaps/img0.png.raw.npz.ply'
     pcd = o3d.io.read_point_cloud(file_path)
     #pcd.transform([[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, 1]])
     o3d.visualization.draw_geometries([pcd])
-    # exit()
 
-   
-    # arguments = []
-    # for shot in reconstruction.shots.values():
-    #     if len(neighbors[shot.id]) <= 1:
-    #         continue
-    #     arguments.append((data ,udata, neighbors[shot.id], shot))
-    # parallel_map_thread(clean_depthmap_catched, arguments, processes)
-    # #parallel_map(clean_depthmap_catched, arguments, processes)
-
-    # # data.save_clean_depthmap(cleaned_depthmap)
-    # # data.save_clean_ply(cleaned_ply)
-
-    # arguments = []
-    # for shot in reconstruction.shots.values():
-    #     if len(neighbors[shot.id]) <= 1:
-    #         continue
-    #     arguments.append((data, udata, neighbors[shot.id], shot))
-    # parallel_map_thread(prune_depthmap_catched, arguments, processes)
-    # #parallel_map(prune_depthmap_catched, arguments, processes)
-    
-    # # data.save_pruned_depthmap(pruned_depthmap)
-    # # data.save_ply_line(pruned_ply)
-
-    # merge_depthmaps(data, reconstruction)
 
 
 
