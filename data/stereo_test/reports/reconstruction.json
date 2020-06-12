@@ -7,32 +7,32 @@
                     "img0.png",
                     "img1.png"
                 ],
-                "common_tracks": 1539,
+                "common_tracks": 1510,
                 "two_view_reconstruction": {
-                    "5_point_inliers": 1539,
-                    "plane_based_inliers": 264,
+                    "5_point_inliers": 1510,
+                    "plane_based_inliers": 573,
                     "method": "5_point"
                 },
-                "triangulated_points": 1501,
+                "triangulated_points": 1491,
                 "decision": "Success",
-                "memory_usage": 181985280
+                "memory_usage": 195534848
             },
             "grow": {
                 "steps": []
             },
             "stats": {
-                "points_count": 1506,
+                "points_count": 1490,
                 "cameras_count": 2,
-                "observations_count": 3012,
+                "observations_count": 2980,
                 "average_track_length": 2.0,
                 "average_track_length_notwo": -1
             }
         }
     ],
     "wall_times": {
-        "load_tracks_graph": 0.00037551717832684517,
-        "compute_image_pairs": 0.015113182831555605,
-        "compute_reconstructions": 0.5803134301677346
+        "load_tracks_graph": 0.00024992701946757734,
+        "compute_image_pairs": 0.013402429001871496,
+        "compute_reconstructions": 0.5026555289805401
     },
     "not_reconstructed_images": []
 }

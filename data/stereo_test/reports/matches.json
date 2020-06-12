@@ -1,14 +1,14 @@
 {
-    "wall_time": 0.532883170992136,
+    "wall_time": 0.5084499170188792,
     "num_pairs": 3,
     "pairs": [
         [
             "img0.png",
-            "img0.png"
+            "img1.png"
         ],
         [
             "img0.png",
-            "img1.png"
+            "img0.png"
         ],
         [
             "img1.png",

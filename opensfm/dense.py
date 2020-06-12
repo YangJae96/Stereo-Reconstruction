@@ -25,14 +25,6 @@ import open3d as o3d
 
 logger = logging.getLogger(__name__)
 
-
-# raw_depthmap={}
-# raw_ply={}
-# cleaned_depthmap={}
-# cleaned_ply={}
-# pruned_depthmap={}
-# pruned_ply={}
-
 def compute_depthmaps(data, udata, graph, reconstruction):
     """Compute and refine depthmaps for all shots.
 
@@ -51,13 +43,6 @@ def compute_depthmaps(data, udata, graph, reconstruction):
     for shot in reconstruction.shots.values():
         neighbors[shot.id] = find_neighboring_images(
             shot, common_tracks, reconstruction, num_neighbors)
-
-
-    # file_path='data/stereo_test/undistorted/depthmaps/img0.png.raw.npz.ply'
-    # pcd = o3d.io.read_point_cloud(file_path)
-    # #pcd.transform([[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, 1]])
-    # o3d.visualization.draw_geometries([pcd])
-    # exit()
 
     arguments = []
             
@@ -92,32 +77,32 @@ def compute_depthmaps(data, udata, graph, reconstruction):
     pcd = o3d.io.read_point_cloud(file_path)
     #pcd.transform([[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, 1]])
     o3d.visualization.draw_geometries([pcd])
-    exit()
+    # exit()
 
    
-    arguments = []
-    for shot in reconstruction.shots.values():
-        if len(neighbors[shot.id]) <= 1:
-            continue
-        arguments.append((data ,udata, neighbors[shot.id], shot))
-    parallel_map_thread(clean_depthmap_catched, arguments, processes)
-    #parallel_map(clean_depthmap_catched, arguments, processes)
+    # arguments = []
+    # for shot in reconstruction.shots.values():
+    #     if len(neighbors[shot.id]) <= 1:
+    #         continue
+    #     arguments.append((data ,udata, neighbors[shot.id], shot))
+    # parallel_map_thread(clean_depthmap_catched, arguments, processes)
+    # #parallel_map(clean_depthmap_catched, arguments, processes)
 
-    # data.save_clean_depthmap(cleaned_depthmap)
-    # data.save_clean_ply(cleaned_ply)
+    # # data.save_clean_depthmap(cleaned_depthmap)
+    # # data.save_clean_ply(cleaned_ply)
 
-    arguments = []
-    for shot in reconstruction.shots.values():
-        if len(neighbors[shot.id]) <= 1:
-            continue
-        arguments.append((data, udata, neighbors[shot.id], shot))
-    parallel_map_thread(prune_depthmap_catched, arguments, processes)
-    #parallel_map(prune_depthmap_catched, arguments, processes)
+    # arguments = []
+    # for shot in reconstruction.shots.values():
+    #     if len(neighbors[shot.id]) <= 1:
+    #         continue
+    #     arguments.append((data, udata, neighbors[shot.id], shot))
+    # parallel_map_thread(prune_depthmap_catched, arguments, processes)
+    # #parallel_map(prune_depthmap_catched, arguments, processes)
     
-    # data.save_pruned_depthmap(pruned_depthmap)
-    # data.save_ply_line(pruned_ply)
+    # # data.save_pruned_depthmap(pruned_depthmap)
+    # # data.save_ply_line(pruned_ply)
 
-    merge_depthmaps(data, reconstruction)
+    # merge_depthmaps(data, reconstruction)
 
 
 
